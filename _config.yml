@@ -1,12 +1,14 @@
 # -----------------------------------------------------------------------------
 # Site settings
+# Server settings
+livereload: true
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Jesse
 middle_name: 
 last_name: Zalasky
-email: you@example.com
+email: jessezalasky@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -111,7 +113,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Reach out to me on LinkedIn!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
