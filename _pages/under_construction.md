@@ -1,3 +1,6 @@
-# Under Construction
-
-A bunch of info about me is coming soon!
+---
+layout: page
+permalink: /under-construction
+title: Under Construction
+description: A bunch of info about me coming soon!
+---
