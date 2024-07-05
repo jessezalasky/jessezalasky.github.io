@@ -11,9 +11,9 @@ email: jessezalasky@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: jesse-zalasky, copywriter, brand-marketing, brand-specialist, branding, portfolio, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ✍🏼 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://jessezalasky.com # the base hostname & protocol for your site
 baseurl: / # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -39,7 +39,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -83,7 +83,7 @@ kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: # your LinkedIn user name
+linkedin_username: jesse-zalasky/ # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: # your ORCID ID
@@ -92,7 +92,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+scholar_userid: # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -109,7 +109,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Shoot me an email or message me on LinkedIn!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -136,17 +136,17 @@ enable_publication_badges:
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blog # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+blog_name: Creative Corner # blog_name will be displayed in your blog page
+blog_description:
+permalink: /blog/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -172,12 +172,55 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
+  - name: "Raley's Work Samples"
     posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+      - url: https://www.raleys.com/be-inspired/learn-about-exciting-features-on-our-app-and-website
+        title: "Exciting Features on Our App and Website"
+        description: "P sure you'll want to shop at Raley's after you read this."
         published_date: 2024-05-14
+        img: assets/img/phone.jpg
+  - name: "Raley's Work Samples"
+    posts:
+      - url: https://www.raleys.com/be-inspired/5-tips-to-save-more-at-raleys
+        title: "5 Tips to Save More at Raley's"
+        description: "I wrote this one as part of Raley's Better for Every Budget campaign."
+        published_date: 2024-06-14
+        img: assets/img/bananas.jpg
+  - name: "Raley's Work Samples"
+    posts:
+      - url: https://www.raleys.com/be-inspired/what-is-a-marinade-and-how-do-you-make-one
+        title: "What is a Marinade and How Do You Make One?"
+        description: "One word: YUM"
+        published_date: 2024-06-14
+        img: assets/img/marinade.jpg     
+  - name: "Nowspeed Work Samples"
+    posts:
+      - url: https://www.bayalarm.com/blog/how-do-motion-sensors-work-a-guide/
+        title: "How Do Motion Sensors Work?"
+        description: "Here's a blog that's ranked high for \"motion sensor\" and related keywords the last three years."
+        published_date: 2021-06-01
+        img: assets/img/motion_sensor.jpg
+  - name: "Nowspeed Work Samples"
+    posts:
+      - url: https://www.bayalarm.com/blog/what-are-ip-cameras-and-how-do-they-work/
+        title: "What Are IP Cameras & How Do They Work?"
+        description: "This blog has ranked first for \"ip camera\" and related keyword phrases since 2021!"
+        published_date: 2021-06-01
+        img: assets/img/ip_camera.jpg
+  - name: "Nowspeed Work Samples"
+    posts:
+      - url: https://www.penneylawyers.com/aviation-accidents/what-is-paramotoring-and-is-it-safe/
+        title: "What Is Paramotoring, and How Safe is It?"
+        description: "Ever heard of paramotoring? Yeah, it's sorta dangerous. This blog ranks on the first page for \"paramotor\"!"
+        published_date: 2021-06-01
+        img: assets/img/paramotor.jpg
+
+
+# -----------------------------------------------------------------------------
+# Exclude drafts
+# -----------------------------------------------------------------------------
+exclude:
+  - _drafts
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -198,9 +241,9 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
+  portfolio:
     output: true
-    permalink: /projects/:path/
+    permalink: /portfolio/:path/
 
 announcements:
   enabled: false

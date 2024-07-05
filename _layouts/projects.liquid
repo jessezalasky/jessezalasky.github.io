@@ -1,0 +1,19 @@
+<div class="col mb-4">
+  <div class="card h-100">
+    {% if project.image %}
+      <img src="{{ project.image }}" class="card-img-top" alt="{{ project.title }}">
+    {% endif %}
+    <div class="card-body">
+      <h5 class="card-title">{{ project.title }}</h5>
+      <p class="card-text">{{ project.description }}</p>
+      {% if project.url %}
+        <a href="{{ project.url }}" class="btn btn-primary" target="_blank">Read More</a>
+      {% else %}
+        <a href="{{ project.path }}" class="btn btn-primary">Read More</a>
+      {% endif %}
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Published On: {{ project.date | date: "%B %d, %Y" }}</small>
+    </div>
+  </div>
+</div>

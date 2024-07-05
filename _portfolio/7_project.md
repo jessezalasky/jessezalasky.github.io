@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
+title: project 7
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/4.jpg
 importance: 1
-category: work
+category: work  # Post disabled if not labeled Raley's Work Samples or Nowspeed Work Samples
 related_publications: true
 ---
 

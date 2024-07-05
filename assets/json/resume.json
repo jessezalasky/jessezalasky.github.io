@@ -1,17 +1,16 @@
 {
   "basics": {
-    "name": "Jesse Zalasky",
-    "label": "Copywriter",
+    "name": "",
+    "label": "",
     "image": "",
     "email": "jessezalasky@gmail.com",
-    "phone": "(916) 204-2088",
-    "summary": "Passionate Marketing & SEO Expert with 6 years experience. Master of crafting captivating campaigns and compelling content. Adept at front-end development and digital brand strategy. Ready to bring creative visions to life.",
+    "summary": "Passionate Marketing & SEO Expert with 6 years of experience. Master of crafting captivating campaigns and compelling content. Adept at front-end development and digital brand strategy. Ready to bring creative visions to life.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
     },
     "profiles": [
       {
@@ -26,13 +25,40 @@
       "name": "Raley's",
       "position": "Web Content Specialist",
       "url": "https://raleys.com",
-      "startDate": "March 2022",
+      "startDate": "2022",
       "endDate": "-",
-      "summary": "Oversaw raleys.com content migration from WordPress to Bloomreach. Manage email marketing campaign that reaches one million inboxes. Write copy for radio ads, in-store activations, ecomm, social and so much more for six brands which fall under Raley's umbrella.",
+      "summary": "Oversaw raleys.com content migration from WordPress to Bloomreach. Manage email marketing campaign that reaches one million inboxes. Write copy for radio ads, in-store activations, ecomm, social for the six brands which fall under Raley's umbrella. Maintain and update database of digital menus and promotional graphics.",
+      "highlights": ""
+    },
+    {
+      "name": "Nowspeed",
+      "position": "Content Specialist",
+      "url": "https://nowspeed.com",
+      "startDate": "2020",
+      "endDate": "2022",
+      "summary": "Copywrote, created content and developed brand strategies across paid and organic channels, including blogs, email, social and Google Ads. Collaborated closely with Bay Alarm Company to develop new website content, increase organic clicks 50,000 YoY and create highly targeted content. Utilized WordPress, SEO plugins and page builders to optimize landing pages to drive conversions.",
+      "highlights": ""
+    },
+    {
+      "name": "Hazel Creative Services",
+      "position": "Social Media Specialist",
+      "url": "https://www.hazelcreative.com/",
+      "startDate": "2019",
+      "endDate": "2020",
+      "summary": "Managed True Pitch, Inc. Facebook and Instagram. Maintained social post calendar. Automated workflow using Buffer. Created graphics using Canva.",
+      "highlights": ""
+    },
+    {
+      "name": "Mydayda",
+      "position": "Technical Writer",
+      "url": "https://www.mydayda.com/",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "Wrote grant proposal for medical technology SAAS submitted to the National Science Foundation in Summer 2020.",
       "highlights": ""
     }
   ],
-  "volunteer": [
+  "_volunteer_disabled": [
     {
       "organization": "People's Climate March",
       "location": "Zurich, Switzerland",
@@ -49,7 +75,7 @@
       "institution": "Sacramento State",
       "location": "Sacramento, CA",
       "url": "https://www.uzh.ch/",
-      "area": "English",
+      "area": "English BA",
       "studyType": "Bachelor of Arts",
       "startDate": "2016",
       "endDate": "2020",
@@ -57,7 +83,7 @@
       "courses": ""
     }
   ],
-  "awards": [
+  "_awards_disabled": [
     {
       "title": "Nobel Prize in Physics",
       "date": "1921-11-01",
@@ -66,7 +92,7 @@
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
-  "certificates": [
+  "_certificates_disabled": [
     {
       "name": "Machine Learning",
       "date": "2018-01-01",
@@ -110,7 +136,7 @@
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
-  "publications": [
+  "_publications_disabled": [
     {
       "name": "Zur Elektrody/namik bewegter Körper",
       "publisher": "Annalen der Physik",
@@ -135,20 +161,23 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Copywriting",
+      "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "SEO",
+        "Branding",
+        "Brand Strategy",
+        "Digital Marketing",
+        "Email Marketing",
+        "WordPress",
+        "Bloomreach",
+        "Salesforce",
+        "HTML / CSS"
       ]
     }
   ],
-  "languages": [
+  "_languages_disabled": [
     {
       "language": "German",
       "fluency": "Native speaker",
@@ -160,7 +189,7 @@
       "icon": ""
     }
   ],
-  "interests": [
+  "_interests_disabled": [
     {
       "name": "Physics",
       "icon": "fa-solid fa-tag",
@@ -174,7 +203,7 @@
       ]
     }
   ],
-  "references": [
+  "_references_disabled": [
     {
       "name": "Professor John Doe",
       "icon": "fa-solid fa-laptop",
@@ -186,7 +215,7 @@
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
-  "projects": [
+  "_projects_disabled": [
     {
       "name": "Quantum Computing",
       "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",

@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: project 4
+description: another without an image
+img:
+importance: 3
+category: work  # Post disabled if not labeled Raley's Work Samples or Nowspeed Work Samples
 ---
 
 Every project has a beautiful feature showcase page.
