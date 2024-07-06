@@ -184,7 +184,7 @@ external_sources:
       - url: https://www.raleys.com/be-inspired/5-tips-to-save-more-at-raleys
         title: "5 Tips to Save More at Raley's"
         description: "I wrote this one as part of Raley's Better for Every Budget campaign."
-        published_date: 2024-06-14
+        published_date: 2024-06-15
         img: assets/img/bananas.jpg
   - name: "Raley's Work Samples"
     posts:
@@ -198,14 +198,14 @@ external_sources:
       - url: https://www.bayalarm.com/blog/how-do-motion-sensors-work-a-guide/
         title: "How Do Motion Sensors Work?"
         description: "Here's a blog that's ranked high for \"motion sensor\" and related keywords the last three years."
-        published_date: 2021-06-01
+        published_date: 2021-06-03
         img: assets/img/motion_sensor.jpg
   - name: "Nowspeed Work Samples"
     posts:
       - url: https://www.bayalarm.com/blog/what-are-ip-cameras-and-how-do-they-work/
         title: "What Are IP Cameras & How Do They Work?"
         description: "This blog has ranked first for \"ip camera\" and related keyword phrases since 2021!"
-        published_date: 2021-06-01
+        published_date: 2021-06-02
         img: assets/img/ip_camera.jpg
   - name: "Nowspeed Work Samples"
     posts:
@@ -316,6 +316,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-file-exists
 
 # Sitemap settings
 defaults:
@@ -385,9 +386,9 @@ scholar:
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
-  altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
-  dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
-  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+  altmetric: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
+  dimensions: false # Dimensions badge (https://badge.dimensions.ai/)
+  google_scholar: false # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
@@ -419,7 +420,7 @@ max_author_limit: 3 # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
-enable_publication_thumbnails: true
+enable_publication_thumbnails: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
