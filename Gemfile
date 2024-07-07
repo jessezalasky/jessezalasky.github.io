@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'classifier-reborn'
-    gem 'jekyll'
+    # gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
@@ -22,7 +22,8 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'observer'
-    gem 'jekyll-feed'
+    gem "minima", "~> 2.5"
+    gem "jekyll", "~> 4.3.3"
 end
 group :other_plugins do
     gem 'css_parser'
