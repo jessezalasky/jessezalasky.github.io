@@ -24,6 +24,7 @@ group :jekyll_plugins do
     gem 'observer'
     gem "minima", "~> 2.5"
     gem "jekyll", "~> 4.3.3"
+    gem 'jekyll-feed'
 end
 group :other_plugins do
     gem 'css_parser'

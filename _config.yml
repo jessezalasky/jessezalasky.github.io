@@ -317,7 +317,6 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
-  - jekyll-file-exists
 
 # Sitemap settings
 defaults:
