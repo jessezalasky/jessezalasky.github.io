@@ -3,6 +3,11 @@
 # Ensure the script exits if any command fails
 set -e
 
-# Install Ruby with the --verify-downloads 2 flag
-rbenv install --skip-existing --verify-downloads 2 $RUBY_VERSION
-rbenv global $RUBY_VERSION
+# Print Ruby version for debugging
+ruby --version
+
+# Install bundler
+gem install bundler
+
+# Print bundler version for debugging
+bundle --version
