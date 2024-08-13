@@ -215,13 +215,6 @@ external_sources:
         description: "Ever heard of paramotoring? Yeah, it's sorta dangerous. This blog ranks on the first page for \"paramotor\"!"
         published_date: 2021-06-01
         img: assets/img/paramotor.jpg
- - name: "Nowspeed Work Samples"
-    posts:
-      - url: https://itap.edu/electrician-apprenticeship-how-to-become-an-electrician/
-        title: "How to Become an Electrician"
-        description: "I dished out 2,000 words on becoming an electrician."
-        published_date: 2021-05-01
-        img: assets/img/electric.jpg
 
 # -----------------------------------------------------------------------------
 # Exclude drafts
