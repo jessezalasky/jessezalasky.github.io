@@ -4,7 +4,7 @@ permalink: /resume/
 title: Resume
 nav: true
 nav_order: 1
-cv_pdf: my resume.pdf
+cv_pdf: jesse zalasky my resume.pdf
 description: >
 toc:
   sidebar: left
