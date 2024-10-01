@@ -4,7 +4,7 @@
     "label": "",
     "image": "",
     "email": "jessezalasky@gmail.com",
-    "summary": "Passionate Marketing & SEO Expert with 6 years of experience. Master of crafting captivating campaigns and compelling content. Adept at front-end development and digital brand strategy. Ready to bring creative visions to life.",
+    "summary": "Marketing & SEO Expert with 6 years of experience. Master of crafting captivating campaigns and compelling content. Adept at front-end development and digital brand strategy. Ready to bring creative visions to life.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -23,11 +23,20 @@
   "work": [
     {
       "name": "Raley's",
-      "position": "Web Content Specialist",
+      "position": "Digital Marketing Developer"
       "url": "https://raleys.com",
       "startDate": "2022",
-      "endDate": "-",
-      "summary": "Oversaw raleys.com content migration from WordPress to Bloomreach. Manage email marketing campaign that reaches one million inboxes. Write copy for radio ads, in-store activations, ecomm, social for the six brands which fall under Raley's umbrella. Maintain and update database of digital menus and promotional graphics.",
+      "endDate": "2024",
+      "summary": "Manage large-scale email marketing campaigns using Salesforce Marketing Cloud, reaching over 1 million subscribers across six brands. Leverage HTML/CSS skills to create responsive, engaging email designs. Spearhead the content strategy and development for Food City's Mi Club loyalty program launch, creating a comprehensive 12-part email series and copy for multi-channel digital and print content plan. Wrote marketing copy tailored to primarily Hispanic customer-base, introducing the Mi Club program and its benefits while elevating Food City's brand positioning in competitive Arizona grocery landscape.",
+      "highlights": ""
+    }
+    {
+      "name": "Raley's",
+      "position": "Web Content Specialist"
+      "url": "https://raleys.com",
+      "startDate": "2024",
+      "endDate": "",
+      "summary": "Wrote compelling copy for diverse channels including email, radio ads, in-store activations, e-commerce platforms, and social media. Led successful content migration from WordPress to Bloomreach for raleys.com, optimizing user experience and SEO performance. Developed and maintained comprehensive digital asset management system for menus and promotional graphics, ensuring brand consistency across all touchpoints.",
       "highlights": ""
     },
     {
@@ -36,7 +45,7 @@
       "url": "https://nowspeed.com",
       "startDate": "2020",
       "endDate": "2022",
-      "summary": "Copywrote, created content and developed brand strategies across paid and organic channels, including blogs, email, social and Google Ads. Collaborated closely with Bay Alarm Company to develop new website content, increase organic clicks 50,000 YoY and create highly targeted content. Utilized WordPress, SEO plugins and page builders to optimize landing pages to drive conversions.",
+      "summary": "Copywrote, created content, and developed brand strategies across paid and organic channels, including blogs, email, social media, and Google Ads. Collaborated closely with Bay Alarm Company to develop new website content, increasing organic clicks by 50,000 year-over-year through highly targeted content. Utilized HubSpot to create comprehensive buyer journeys and implement sales automation, contributing to a $5 million revenue increase from 2020 to 2021. Optimized landing pages using WordPress, SEO plugins, and page builders, resulting in a 10% increase in conversion rates. Leveraged data-driven insights from tools like Google Analytics, SpyFu, and Ahrefs to refine SEO strategies and identify new content opportunities.",
       "highlights": ""
     },
     {
