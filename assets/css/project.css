@@ -1,0 +1,25 @@
+.project-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .project-header {
+    margin-bottom: 40px;
+  }
+  
+  .project-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .overview, .skills {
+    width: 48%;
+  }
+  
+  .project-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
