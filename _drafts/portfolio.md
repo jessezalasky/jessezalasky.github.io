@@ -3,8 +3,8 @@ layout: page
 title: Portfolio
 permalink: /portfolio/
 description: Check out some of the things I've written and cool projects I've worked on to get a feel for my super sweet skills.
-nav: true
-nav_order: 2
+nav: false
+nav_order: 10
 display_categories: [Raley's Work Samples, Nowspeed Work Samples]
 horizontal: false
 ---
