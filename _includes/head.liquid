@@ -68,6 +68,11 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
+<!-- Portfolio CSS -->
+{% if page.title == "Creative Portfolio" %}
+  <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url | bust_file_cache }}">
+{% endif %}
+
 <!-- Dark Mode -->
 <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
 {% if site.enable_darkmode %}
