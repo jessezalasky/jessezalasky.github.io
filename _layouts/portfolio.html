@@ -41,20 +41,33 @@
       }
     }
 
+    /* Profile styles */
     .profile-card {
       background-color: white;
       color: black;
       padding: 1.5rem;
       border-radius: 1.5rem;
-      max-width: 28rem;
+      max-width: 350px;
     }
 
     .profile-image {
-      width: 100%;
-      aspect-ratio: 1;
-      border-radius: 1rem;
+      width: 300px;
+      height: 300px;
+      border-radius: 24px;
+      object-fit: cover;
       margin-bottom: 1.5rem;
-      background-color: #f97316;
+    }
+
+    .profile-name {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .profile-bio {
+      color: #666;
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
     }
 
     .social-links {
@@ -90,9 +103,10 @@
     }
 
     .stat-number {
-      font-size: 2.25rem;
+      font-size: 3.5rem;
       font-weight: bold;
       margin-bottom: 0.5rem;
+      white-space: nowrap;
     }
 
     .stat-label {
@@ -186,8 +200,8 @@
       <!-- Profile Card -->
       <div class="profile-card">
         <img src="{{ site.author.image }}" alt="{{ site.author.name }}" class="profile-image">
-        <h2 class="text-3xl font-bold mb-2">{{ site.author.name }}</h2>
-        <p class="text-gray-600 mb-6">{{ site.author.bio }}</p>
+        <h2 class="profile-name">{{ site.author.name }}</h2>
+        <p class="profile-bio">{{ site.author.bio }}</p>
         <div class="social-links">
           {% if site.author.github %}
             <a href="{{ site.author.github }}" class="social-link" target="_blank">
@@ -220,7 +234,7 @@
 EXPERIENCE</div>
           </div>
           <div>
-            <div class="stat-number">+{{ site.completed_projects }}</div>
+            <div class="stat-number">+{{ site.words_written }}</div>
             <div class="stat-label">WORDS
 WRITTEN</div>
           </div>
