@@ -41,88 +41,65 @@
       }
     }
 
-    /* Profile styles */
-    <style>
-/* Updated profile card styles */
-.profile-card {
-  background-color: white;
-  color: black;
-  padding: 1rem;  /* Reduced from 1.5rem */
-  border-radius: 1.5rem;
-  max-width: 320px;  /* Reduced from 350px */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+    /* Updated profile card styles */
+    .profile-card {
+      background-color: white;
+      color: black;
+      padding: 1rem;
+      border-radius: 1.5rem;
+      max-width: 320px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-.profile-image {
-  width: 100%;  /* Changed to fill container width */
-  height: auto;  /* Maintain aspect ratio */
-  border-radius: 1rem;
-  object-fit: cover;
-  margin-bottom: 1rem;  /* Reduced from 1.5rem */
-}
+    .profile-image {
+      width: 100%;
+      height: auto;
+      border-radius: 1rem;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
 
-.profile-name {
-  font-size: 1.75rem;  /* Slightly reduced */
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-}
+    .profile-name {
+      font-size: 1.75rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
 
-.profile-bio {
-  color: #666;
-  margin-bottom: 1rem;  /* Reduced from 1.5rem */
-  line-height: 1.5;
-  text-align: center;
-}
+    .profile-bio {
+      color: #666;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+      text-align: center;
+    }
 
-/* Updated social links styles */
-.social-links {
-  display: flex;
-  gap: 0.5rem;
-  margin-top: 0.5rem;
-}
+    .social-links {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
 
-.social-link {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.5rem 1rem;
-  background-color: #0077b5;  /* LinkedIn blue */
-  color: white;
-  text-decoration: none;
-  border-radius: 0.5rem;
-  transition: background-color 0.3s;
-  font-size: 0.875rem;
-}
-
-.social-link:hover {
-  background-color: #005885;
-}
-
-.social-link img {
-  width: 20px;
-  height: 20px;
-  margin-right: 0.5rem;
-}
-</style>
-
-<!-- Updated profile card HTML structure -->
-<div class="profile-card">
-  <img src="{{ site.author.image }}" alt="{{ site.author.name }}" class="profile-image">
-  <h2 class="profile-name">{{ site.author.name }}</h2>
-  <p class="profile-bio">{{ site.author.bio }}</p>
-  <div class="social-links">
-    {% if site.author.linkedin %}
-      <a href="{{ site.author.linkedin }}" class="social-link" target="_blank">
-        <img src="/assets/icons/linkedin.svg" alt="LinkedIn" />
-        <span>LinkedIn</span>
-      </a>
-    {% endif %}
-  </div>
-</div>
+    .social-link {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.5rem 1rem;
+      background-color: #0077b5;
+      color: white;
+      text-decoration: none;
+      border-radius: 0.5rem;
+      transition: background-color 0.3s;
+      font-size: 0.875rem;
+    }
 
     .social-link:hover {
-      background-color: #f3f4f6;
+      background-color: #005885;
+    }
+
+    .social-link img {
+      width: 20px;
+      height: 20px;
+      margin-right: 0.5rem;
     }
 
     .title-large {
@@ -243,19 +220,10 @@
         <h2 class="profile-name">{{ site.author.name }}</h2>
         <p class="profile-bio">{{ site.author.bio }}</p>
         <div class="social-links">
-          {% if site.author.github %}
-            <a href="{{ site.author.github }}" class="social-link" target="_blank">
-              <img src="/assets/icons/github.svg" alt="GitHub" width="24" height="24">
-            </a>
-          {% endif %}
-          {% if site.author.twitter %}
-            <a href="{{ site.author.twitter }}" class="social-link" target="_blank">
-              <img src="/assets/icons/twitter.svg" alt="Twitter" width="24" height="24">
-            </a>
-          {% endif %}
           {% if site.author.linkedin %}
             <a href="{{ site.author.linkedin }}" class="social-link" target="_blank">
-              <img src="/assets/icons/linkedin.svg" alt="LinkedIn" width="24" height="24">
+              <img src="/assets/icons/linkedin.svg" alt="LinkedIn" />
+              <span>LinkedIn</span>
             </a>
           {% endif %}
         </div>
@@ -289,15 +257,15 @@ WRITTEN</div>
     <!-- Skills Section -->
     <div class="skills-grid">
       <div class="skill-card skill-orange">
-        <span>DYNAMIC ANIMATION,
-MOTION DESIGN</span>
+        <span>COPYWRITING &
+CONTENT STRATEGY</span>
         <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M7 17L17 7M17 7H7M17 7V17"/>
         </svg>
       </div>
       <div class="skill-card skill-green">
-        <span>FRAMER, FIGMA,
-WORDPRESS, REACTJS</span>
+        <span>WEB DEVELOPMENT &
+UX WRITING</span>
         <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M7 17L17 7M17 7H7M17 7V17"/>
         </svg>
