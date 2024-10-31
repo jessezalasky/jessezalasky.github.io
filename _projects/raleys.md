@@ -1,5 +1,5 @@
 ---
-layout: projects
+layout: project
 title: "Raley's"
 description: "Check out some of the projects I've worked on in my time at Raley's!"
 permalink: /creative-portfolio/raleys
