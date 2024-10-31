@@ -1,29 +1,190 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Matching styles from portfolio */
+    body {
+      background-color: black;
+      color: white;
+      margin: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
 
-<div class="project-page">
-  <header class="project-header">
-    <h1>{{ page.title }}</h1>
-    <div class="project-summary">
-      <div class="overview">
-        <h2>Overview</h2>
-        <p>{{ page.summary }}</p>
+    .project-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    /* Hero section */
+    .project-hero {
+      min-height: 80vh;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 4rem;
+      padding: 4rem 0;
+    }
+
+    @media (min-width: 768px) {
+      .project-hero {
+        grid-template-columns: 1.2fr 0.8fr;
+      }
+    }
+
+    .project-title {
+      font-size: 4rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+
+    .project-summary {
+      font-size: 1.25rem;
+      color: #9ca3af;
+      margin-bottom: 3rem;
+      line-height: 1.6;
+    }
+
+    /* What I Did section */
+    .skills-section {
+      background-color: #1a1a1a;
+      border-radius: 1.5rem;
+      padding: 2rem;
+    }
+
+    .skills-section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+      color: #f97316;
+    }
+
+    .skills-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .skills-list li {
+      background-color: #262626;
+      padding: 1rem;
+      border-radius: 0.75rem;
+      font-weight: 500;
+      transition: transform 0.2s;
+    }
+
+    .skills-list li:hover {
+      transform: translateY(-2px);
+    }
+
+    /* Content section */
+    .project-content {
+      max-width: 800px;
+      margin: 4rem auto;
+    }
+
+    .project-content h2 {
+      font-size: 2.5rem;
+      margin: 3rem 0 1.5rem;
+      color: #f97316;
+    }
+
+    .project-content h3 {
+      font-size: 1.8rem;
+      margin: 2rem 0 1rem;
+      color: #e5e7eb;
+    }
+
+    .project-content p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #9ca3af;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Image handling */
+    .project-content img {
+      width: 100%;
+      border-radius: 1rem;
+      margin: 2rem 0;
+      transition: transform 0.3s;
+    }
+
+    .project-content img:hover {
+      transform: scale(1.02);
+    }
+
+    .image-caption {
+      text-align: center;
+      color: #6b7280;
+      margin-top: -1.5rem;
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+    }
+
+    /* Navigation */
+    .project-nav {
+      position: fixed;
+      top: 2rem;
+      right: 2rem;
+      z-index: 100;
+    }
+
+    .back-button {
+      background-color: #f97316;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 9999px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background-color 0.3s;
+    }
+
+    .back-button:hover {
+      background-color: #ea580c;
+    }
+  </style>
+</head>
+<body>
+  <div class="project-container">
+    <!-- Navigation -->
+    <nav class="project-nav">
+      <a href="/creative-portfolio" class="back-button">← Back to Portfolio</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="project-hero">
+      <div>
+        <h1 class="project-title">{{ page.title }}</h1>
+        <p class="project-summary">{{ page.summary }}</p>
       </div>
-      {% if page.skills %}
-      <div class="skills">
+      <div class="skills-section">
         <h2>What I Did</h2>
-        <ul>
-        {% for skill in page.skills %}
-          <li>{{ skill }}</li>
-        {% endfor %}
+        <ul class="skills-list">
+          {% for item in page['What I Do'] %}
+            <li>{{ item }}</li>
+          {% endfor %}
         </ul>
       </div>
-      {% endif %}
-    </div>
-  </header>
+    </section>
 
-  <article class="project-content">
-    {{ content }}
-  </article>
-</div>
+    <!-- Main Content -->
+    <article class="project-content">
+      {{ content }}
+    </article>
+  </div>
+
+  <script>
+    // Add captions to images based on alt text
+    document.querySelectorAll('.project-content img').forEach(img => {
+      if (img.alt && img.alt !== ""){
+        const caption = document.createElement('div');
+        caption.className = 'image-caption';
+        caption.textContent = img.alt;
+        img.parentNode.insertBefore(caption, img.nextSibling);
+      }
+    });
+  </script>
+</body>
+</html>

@@ -244,10 +244,22 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
-    
+
   projects:
     output: true
     permalink: /creative-portfolio/:name/
+
+author:
+  name: Your Name
+  image: /assets/images/profile.jpg
+  bio: Your bio here
+  github: https://github.com/yourusername
+  twitter: https://twitter.com/yourusername
+  linkedin: https://linkedin.com/in/yourusername
+
+experience_years: 6
+completed_projects: 46
+clients: 20    
 
 announcements:
   enabled: false
