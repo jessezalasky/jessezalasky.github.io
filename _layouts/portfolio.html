@@ -112,11 +112,15 @@
       margin-right: 0.5rem;
     }
 
+    .section-title {
+  margin-bottom: 3rem;
+    }
+
     .title-large {
       font-size: 3.75rem;
       font-weight: bold;
-      margin-bottom: 1rem;
-      color: white; 
+      line-height: 1;
+      margin: 0;
     }
 
     .title-gray {
@@ -255,7 +259,7 @@
       <div class="hero-right">
         <div class="title-stats-section">
           <h1 class="title-large">COPYWRITER</h1>
-          <h2 class="title-large">PROJECTS</h2>
+          <h2 class="title-large"></h2>
           <p class="text-gray-400 mb-8 max-w-md">{{ page.description }}</p>
           
           <div class="stats-grid">
@@ -296,8 +300,10 @@ UX WRITING</span>
     </div>
 
     <!-- Projects Section -->
+<div class="section-title">
     <h2 class="title-large">RECENT</h2>
-    <h3 class="title-large title-gray">PROJECTS</h3>
+    <h2 class="title-large title-gray">PROJECTS</h2>
+</div>
     
     <div class="projects-list">
       {% for project in site.projects limit:6 %}
