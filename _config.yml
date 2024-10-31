@@ -250,15 +250,13 @@ collections:
     permalink: /creative-portfolio/:name/
 
 author:
-  name: Your Name
-  image: /assets/images/profile.jpg
-  bio: Your bio here
-  github: https://github.com/yourusername
-  twitter: https://twitter.com/yourusername
-  linkedin: https://linkedin.com/in/yourusername
+  name: Jesse Zalasky
+  image: /assets/images/Profile_Pic.jpg
+  bio: Content strategist with a mind geared for innovation.
+  linkedin: https://www.linkedin.com/in/jesse-zalasky/
 
 experience_years: 6
-completed_projects: 46
+words_written: 100,000
 clients: 20    
 
 announcements:
