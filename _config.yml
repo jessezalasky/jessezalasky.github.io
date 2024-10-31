@@ -247,7 +247,7 @@ collections:
 
   projects:
     output: true
-    permalink: /creative-portfolio/:name/
+
 
 author:
   name: Jesse Zalasky
