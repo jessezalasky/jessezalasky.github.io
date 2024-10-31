@@ -28,20 +28,30 @@
       color: #9ca3af;
     }
 
+    /* Updated hero section styles */
     .hero-section {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1.5fr;
       gap: 3rem;
-      margin-bottom: 6rem;
+      margin-bottom: 4rem;
     }
 
-    @media (min-width: 768px) {
-      .hero-section {
-        grid-template-columns: 1fr 1fr;
-      }
+    .hero-left {
+      display: flex;
+      flex-direction: column;
     }
 
-    /* Updated profile card styles */
+    .hero-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .title-stats-section {
+      margin-bottom: 2rem;
+    }
+
+    /* Profile card styles */
     .profile-card {
       background-color: white;
       color: black;
@@ -112,11 +122,13 @@
       color: #4b5563;
     }
 
+    /* Stats grid styles */
     .stats-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 2rem;
-      margin-top: 3rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
     }
 
     .stat-number {
@@ -132,21 +144,16 @@
       white-space: pre-line;
     }
 
-    .skills-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 1.5rem;
-      margin-bottom: 6rem;
-    }
-
-    @media (min-width: 768px) {
-      .skills-grid {
-        grid-template-columns: 1fr 1fr;
-      }
+    /* Skills stack styles */
+    .skills-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
     }
 
     .skill-card {
-      padding: 1.5rem;
+      padding: 1.25rem;
       border-radius: 1rem;
       display: flex;
       justify-content: space-between;
@@ -167,6 +174,7 @@
       background-color: #a3e635;
     }
 
+    /* Projects section styles */
     .projects-list {
       margin-top: 2rem;
     }
@@ -201,6 +209,17 @@
     .project-info p {
       color: #6b7280;
     }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .hero-section {
+        grid-template-columns: 1fr;
+      }
+      
+      .skills-stack {
+        margin-top: 2rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -214,61 +233,64 @@
 
     <!-- Hero Section -->
     <div class="hero-section">
-      <!-- Profile Card -->
-      <div class="profile-card">
-        <img src="{{ site.author.image }}" alt="{{ site.author.name }}" class="profile-image">
-        <h2 class="profile-name">{{ site.author.name }}</h2>
-        <p class="profile-bio">{{ site.author.bio }}</p>
-        <div class="social-links">
-          {% if site.author.linkedin %}
-            <a href="{{ site.author.linkedin }}" class="social-link" target="_blank">
-              <img src="/assets/icons/linkedin.svg" alt="LinkedIn" />
-              <span>LinkedIn</span>
-            </a>
-          {% endif %}
+      <!-- Left Column -->
+      <div class="hero-left">
+        <div class="profile-card">
+          <img src="{{ site.author.image }}" alt="{{ site.author.name }}" class="profile-image">
+          <h2 class="profile-name">{{ site.author.name }}</h2>
+          <p class="profile-bio">{{ site.author.bio }}</p>
+          <div class="social-links">
+            {% if site.author.linkedin %}
+              <a href="{{ site.author.linkedin }}" class="social-link" target="_blank">
+                <img src="/assets/icons/linkedin.svg" alt="LinkedIn" />
+                <span>LinkedIn</span>
+              </a>
+            {% endif %}
+          </div>
         </div>
       </div>
 
-      <!-- Title and Stats -->
-      <div>
-        <h1 class="title-large">COPYWRITER</h1>
-        <h2 class="title-large title-gray"></h2>
-        <p class="text-gray-400 mb-12 max-w-md">{{ page.description }}</p>
-        
-        <div class="stats-grid">
-          <div>
-            <div class="stat-number">+{{ site.experience_years }}</div>
-            <div class="stat-label">YEARS OF
+      <!-- Right Column -->
+      <div class="hero-right">
+        <div class="title-stats-section">
+          <h1 class="title-large">COPYWRITER</h1>
+          <h2 class="title-large title-gray"></h2>
+          <p class="text-gray-400 mb-8 max-w-md">{{ page.description }}</p>
+          
+          <div class="stats-grid">
+            <div>
+              <div class="stat-number">+{{ site.experience_years }}</div>
+              <div class="stat-label">YEARS OF
 EXPERIENCE</div>
-          </div>
-          <div>
-            <div class="stat-number">+{{ site.words_written }}</div>
-            <div class="stat-label">WORDS
+            </div>
+            <div>
+              <div class="stat-number">+{{ site.words_written }}</div>
+              <div class="stat-label">WORDS
 WRITTEN</div>
-          </div>
-          <div>
-            <div class="stat-number">+{{ site.clients }}</div>
-            <div class="stat-label">CLIENTS</div>
+            </div>
+            <div>
+              <div class="stat-number">+{{ site.clients }}</div>
+              <div class="stat-label">CLIENTS</div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
 
-    <!-- Skills Section -->
-    <div class="skills-grid">
-      <div class="skill-card skill-orange">
-        <span>COPYWRITING &
+        <div class="skills-stack">
+          <div class="skill-card skill-orange">
+            <span>COPYWRITING &
 CONTENT STRATEGY</span>
-        <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M7 17L17 7M17 7H7M17 7V17"/>
-        </svg>
-      </div>
-      <div class="skill-card skill-green">
-        <span>WEB DEVELOPMENT &
+            <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17L17 7M17 7H7M17 7V17"/>
+            </svg>
+          </div>
+          <div class="skill-card skill-green">
+            <span>WEB DEVELOPMENT &
 UX WRITING</span>
-        <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M7 17L17 7M17 7H7M17 7V17"/>
-        </svg>
+            <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17L17 7M17 7H7M17 7V17"/>
+            </svg>
+          </div>
+        </div>
       </div>
     </div>
 
