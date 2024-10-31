@@ -251,12 +251,12 @@ collections:
 
 author:
   name: Jesse Zalasky
-  image: /assets/images/Profile_Pic.jpg
+  image: /assets/img/Profile_Pic.jpg
   bio: Content strategist with a mind geared for innovation.
   linkedin: https://www.linkedin.com/in/jesse-zalasky/
 
 experience_years: 6
-words_written: 100,000
+words_written: 100K
 clients: 20    
 
 announcements:
