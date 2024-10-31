@@ -11,9 +11,11 @@ What I Do:
   - CMS Management
 ---
 
-# {{ page.title }}
+<!-- Remove this as the title is already handled in the layout -->
+<!-- # {{ page.title }} -->
 
-<div class="project-summary">
+<!-- Remove this div as these sections are handled in the layout -->
+<!-- <div class="project-summary">
   <div class="overview">
     <h2>Overview</h2>
     <p>{{ page.summary }}</p>
@@ -26,7 +28,7 @@ What I Do:
     {% endfor %}
     </ul>
   </div>
-</div>
+</div> -->
 
 ## Project Details
 

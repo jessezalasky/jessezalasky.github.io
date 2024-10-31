@@ -2,62 +2,70 @@
 <html>
 <head>
   <style>
-    /* Matching styles from portfolio */
+    /* Base styles */
     body {
       background-color: black;
       color: white;
       margin: 0;
       font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.5;
     }
 
+    /* Container */
     .project-container {
-      max-width: 1200px;
+      max-width: 800px;
       margin: 0 auto;
       padding: 2rem;
     }
 
-    /* Hero section */
-    .project-hero {
-      min-height: 80vh;
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 4rem;
-      padding: 4rem 0;
+    /* Navigation */
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 2rem;
+      font-size: 0.875rem;
+      transition: color 0.3s;
     }
 
-    @media (min-width: 768px) {
-      .project-hero {
-        grid-template-columns: 1.2fr 0.8fr;
-      }
+    .back-link:hover {
+      color: #9ca3af;
+    }
+
+    /* Project header */
+    .project-header {
+      margin-bottom: 4rem;
     }
 
     .project-title {
-      font-size: 4rem;
+      font-size: 3.75rem;
       font-weight: bold;
-      margin-bottom: 2rem;
+      margin: 0 0 1rem 0;
     }
 
-    .project-summary {
+    .project-overview {
       font-size: 1.25rem;
       color: #9ca3af;
-      margin-bottom: 3rem;
-      line-height: 1.6;
+      margin-bottom: 2rem;
+      max-width: 65ch;
     }
 
     /* What I Did section */
-    .skills-section {
+    .what-i-did {
       background-color: #1a1a1a;
-      border-radius: 1.5rem;
+      border-radius: 1rem;
       padding: 2rem;
+      margin-bottom: 4rem;
     }
 
-    .skills-section h2 {
+    .what-i-did h2 {
       font-size: 1.5rem;
-      margin-bottom: 1.5rem;
+      margin: 0 0 1.5rem 0;
       color: #f97316;
     }
 
-    .skills-list {
+    .what-i-did ul {
       list-style: none;
       padding: 0;
       margin: 0;
@@ -66,125 +74,81 @@
       gap: 1rem;
     }
 
-    .skills-list li {
+    .what-i-did li {
       background-color: #262626;
       padding: 1rem;
-      border-radius: 0.75rem;
-      font-weight: 500;
-      transition: transform 0.2s;
+      border-radius: 0.5rem;
+      font-size: 0.875rem;
     }
 
-    .skills-list li:hover {
-      transform: translateY(-2px);
-    }
-
-    /* Content section */
+    /* Project content */
     .project-content {
-      max-width: 800px;
-      margin: 4rem auto;
+      color: #e5e7eb;
     }
 
     .project-content h2 {
-      font-size: 2.5rem;
-      margin: 3rem 0 1.5rem;
+      font-size: 2rem;
+      margin: 3rem 0 1.5rem 0;
       color: #f97316;
     }
 
     .project-content h3 {
-      font-size: 1.8rem;
-      margin: 2rem 0 1rem;
-      color: #e5e7eb;
+      font-size: 1.5rem;
+      margin: 2rem 0 1rem 0;
+      color: white;
     }
 
     .project-content p {
-      font-size: 1.1rem;
-      line-height: 1.7;
       color: #9ca3af;
       margin-bottom: 1.5rem;
+      max-width: 65ch;
     }
 
-    /* Image handling */
     .project-content img {
-      width: 100%;
-      border-radius: 1rem;
+      max-width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
       margin: 2rem 0;
-      transition: transform 0.3s;
     }
 
-    .project-content img:hover {
-      transform: scale(1.02);
-    }
-
-    .image-caption {
-      text-align: center;
-      color: #6b7280;
-      margin-top: -1.5rem;
-      margin-bottom: 2rem;
-      font-size: 0.9rem;
-    }
-
-    /* Navigation */
-    .project-nav {
-      position: fixed;
-      top: 2rem;
-      right: 2rem;
-      z-index: 100;
-    }
-
-    .back-button {
-      background-color: #f97316;
-      color: white;
-      padding: 0.75rem 1.5rem;
-      border-radius: 9999px;
-      text-decoration: none;
-      font-weight: 500;
-      transition: background-color 0.3s;
-    }
-
-    .back-button:hover {
-      background-color: #ea580c;
+    /* Results section */
+    .results-section {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid #333;
     }
   </style>
 </head>
 <body>
   <div class="project-container">
-    <!-- Navigation -->
-    <nav class="project-nav">
-      <a href="/creative-portfolio" class="back-button">← Back to Portfolio</a>
-    </nav>
+    <a href="/creative-portfolio" class="back-link">
+      ← Back to Portfolio
+    </a>
 
-    <!-- Hero Section -->
-    <section class="project-hero">
-      <div>
-        <h1 class="project-title">{{ page.title }}</h1>
-        <p class="project-summary">{{ page.summary }}</p>
-      </div>
-      <div class="skills-section">
-        <h2>What I Did</h2>
-        <ul class="skills-list">
-          {% for item in page['What I Do'] %}
-            <li>{{ item }}</li>
-          {% endfor %}
-        </ul>
-      </div>
-    </section>
-
-    <!-- Main Content -->
     <article class="project-content">
+      <header class="project-header">
+        <h1 class="project-title">{{ page.title }}</h1>
+        <p class="project-overview">{{ page.summary }}</p>
+        
+        <div class="what-i-did">
+          <h2>What I Did</h2>
+          <ul>
+            {% for item in page['What I Do'] %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </header>
+
       {{ content }}
+      
+      {% if page.results %}
+        <section class="results-section">
+          <h2>Results</h2>
+          {{ page.results | markdownify }}
+        </section>
+      {% endif %}
     </article>
   </div>
-
-  <script>
-    // Add captions to images based on alt text
-    document.querySelectorAll('.project-content img').forEach(img => {
-      if (img.alt && img.alt !== ""){
-        const caption = document.createElement('div');
-        caption.className = 'image-caption';
-        caption.textContent = img.alt;
-        img.parentNode.insertBefore(caption, img.nextSibling);
-      }
-    });
-  </script>
 </body>
 </html>
