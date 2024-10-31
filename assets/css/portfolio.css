@@ -47,4 +47,15 @@
 }
 .view-project:hover {
     background-color: #9c0891;
+
+    .portfolio-link {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .portfolio-item {
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }    
 }
