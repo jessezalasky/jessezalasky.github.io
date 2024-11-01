@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Per Mar Security"
-description: "Get a closer look at what I did as content architect for Per Mar's new wesbite."
+description: "See what I did to transform Per Mar's brand identity."
 permalink: /creative-portfolio/per-mar-security
 summary: "Food City is fun."
 What I Do:
