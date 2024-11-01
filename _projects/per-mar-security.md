@@ -1,6 +1,7 @@
 ---
 layout: project
-title: "Per Mar Security"
+title: "Per Mar"
+order: 4
 description: "See what I did to transform Per Mar's brand identity."
 permalink: /creative-portfolio/per-mar-security
 summary: "Food City is fun."
