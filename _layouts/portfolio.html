@@ -30,16 +30,40 @@
 
     /* Hero section styles */
     .hero-section {
-      display: grid;
-      grid-template-columns: 1fr 1.5fr;
-      gap: 3rem;
-      margin-bottom: 4rem;
-    }
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;  /* Creates two columns */
+  gap: 3rem;
+  align-items: start;  /* Aligns content to top */
+}
 
-    .hero-left {
+.hero-left {
+  position: sticky;  /* Optional: keeps skills visible while scrolling */
+  top: 2rem;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+}
+
+.skills-title {
+  font-size: 2.5rem;  /* Larger size */
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.05em;
+}
+
+.skills-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Rest of your existing styles */
+
+@media (max-width: 768px) {
+  .hero-section {
+    grid-template-columns: 1fr;  /* Stack on mobile */
+  }
 }
 
 .intro-section {
@@ -304,112 +328,105 @@
     </nav>
 
     <!-- Hero Section -->
-    <div class="hero-section">
-<!-- Left Column -->
-<div class="hero-left">
-    <!-- Intro Section -->
-    <div class="intro-section">
-        <h2 class="author-name">Jesse Zalasky</h2>
-        <p class="author-bio">Content strategist with a mind geared for innovation.</p>
-      </div>
-  
-    <!-- Skills Section -->
-<div class="skills-section">
-    <h1 class="section-label">Skills</h1>
-    <div class="skills-stack">
-      <div class="skill-card skill-orange">
-        <span>COPYWRITING & CONTENT STRATEGY</span>
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M7 17L17 7M17 7H7M17 7V17"/>
-        </svg>
-      </div>
-      
-      <div class="skill-card skill-green">
-        <span>WEB DEVELOPMENT & UX WRITING</span>
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M7 17L17 7M17 7H7M17 7V17"/>
-        </svg>
-      </div>
-  
-      <div class="skill-card skill-orange">
-        <span>EMAIL MARKETING</span>
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M7 17L17 7M17 7H7M17 7V17"/>
-        </svg>
-      </div>
-  
-      <div class="skill-card skill-green">
-        <span>HTML & CSS</span>
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M7 17L17 7M17 7H7M17 7V17"/>
-        </svg>
-      </div>
-  
-      <div class="skill-card skill-orange">
-        <span>CONTENT MANAGEMENT - WORDPRESS & BLOOMREACH</span>
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M7 17L17 7M17 7H7M17 7V17"/>
-        </svg>
-      </div>
-    </div>
-  </div>
-  
-  <!-- CTA Buttons -->
-  <div class="cta-buttons">
-    <a href="{{ site.author.linkedin }}" class="cta-button linkedin-button" target="_blank">
-      <img src="/assets/icons/linkedin.svg" alt="LinkedIn" />
-      <span>LinkedIn</span>
-    </a>
-    <a href="{{ site.author.resume }}" class="cta-button resume-button" target="_blank">
-      <span>Resume</span>
-      <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M7 17L17 7M17 7H7M17 7V17"/>
-      </svg>
-    </a>
-  </div>
-  
-      <!-- Right Column -->
-      <div class="hero-right">
-        <div class="title-stats-section">
-          <h1 class="title-large">JESSE ZALASKY</h1>
-          <h2 class="title-large title-gray">COPYWRITER</h2>
-          <p class="text-gray-400 mb-8 max-w-md">{{ page.description }}</p>
+<div class="hero-section">
+    <!-- Left Column -->
+    <div class="hero-left">
+      <!-- Skills Section -->
+      <div class="skills-section">
+        <h1 class="skills-title">SKILLS</h1>
+        <div class="skills-stack">
+          <div class="skill-card skill-orange">
+            <span>COPYWRITING & CONTENT STRATEGY</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17L17 7M17 7H7M17 7V17"/>
+            </svg>
+          </div>
           
-          <div class="stats-grid">
-            <div>
-              <div class="stat-number">+{{ site.experience_years }}</div>
-              <div class="stat-label">YEARS OF<br>EXPERIENCE</div>
-            </div>
-            <div>
-              <div class="stat-number">+{{ site.words_written }}</div>
-              <div class="stat-label">WORDS<br>WRITTEN</div>
-            </div>
-            <div>
-              <div class="stat-number">+{{ site.clients }}</div>
-              <div class="stat-label">CLIENTS</div>
-            </div>
+          <div class="skill-card skill-green">
+            <span>WEB DEVELOPMENT & UX WRITING</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17L17 7M17 7H7M17 7V17"/>
+            </svg>
+          </div>
+    
+          <div class="skill-card skill-orange">
+            <span>EMAIL MARKETING</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17L17 7M17 7H7M17 7V17"/>
+            </svg>
+          </div>
+    
+          <div class="skill-card skill-green">
+            <span>HTML & CSS</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17L17 7M17 7H7M17 7V17"/>
+            </svg>
+          </div>
+    
+          <div class="skill-card skill-orange">
+            <span>CONTENT MANAGEMENT - WORDPRESS & BLOOMREACH</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17L17 7M17 7H7M17 7V17"/>
+            </svg>
           </div>
         </div>
-
-        <!-- Recent Projects -->
-        <div class="projects-preview">
-          <div class="section-title">
-            <h2 class="title-large">RECENT</h2>
-            <h2 class="title-large title-gray">WORK</h2>
+      </div>
+    
+      <!-- CTA Buttons -->
+      <div class="cta-buttons">
+        <a href="{{ site.author.linkedin }}" class="cta-button linkedin-button" target="_blank">
+          <img src="/assets/icons/linkedin.svg" alt="LinkedIn" />
+          <span>LinkedIn</span>
+        </a>
+        <a href="{{ site.author.resume }}" class="cta-button resume-button" target="_blank">
+          <span>Resume</span>
+          <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M7 17L17 7M17 7H7M17 7V17"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+    
+    <!-- Right Column -->
+    <div class="hero-right">
+      <div class="title-stats-section">
+        <h1 class="title-large">JESSE ZALASKY</h1>
+        <h2 class="title-large title-gray">COPYWRITER</h2>
+        <p class="text-gray-400 mb-8 max-w-md">{{ page.description }}</p>
+        
+        <div class="stats-grid">
+          <div>
+            <div class="stat-number">+{{ site.experience_years }}</div>
+            <div class="stat-label">YEARS OF<br>EXPERIENCE</div>
           </div>
-          
-          <div class="projects-grid">
-            {% for project in site.projects limit:3 %}
-            <a href="{{ project.url }}" class="project-link">
-              <div class="project-card">
-                <h3>{{ project.title }}</h3>
-                <p>{{ project.description }}</p>
-              </div>
-            {% endfor %}
+          <div>
+            <div class="stat-number">+{{ site.words_written }}</div>
+            <div class="stat-label">WORDS<br>WRITTEN</div>
           </div>
+          <div>
+            <div class="stat-number">+{{ site.clients }}</div>
+            <div class="stat-label">CLIENTS</div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Recent Projects -->
+      <div class="projects-preview">
+        <div class="section-title">
+          <h2 class="title-large">RECENT</h2>
+          <h2 class="title-large title-gray">WORK</h2>
+        </div>
+        
+        <div class="projects-grid">
+          {% for project in site.projects limit:3 %}
+          <a href="{{ project.url }}" class="project-link">
+            <div class="project-card">
+              <h3>{{ project.title }}</h3>
+              <p>{{ project.description }}</p>
+            </div>
+          </a>
+          {% endfor %}
         </div>
       </div>
     </div>
   </div>
-</body>
-</html>
