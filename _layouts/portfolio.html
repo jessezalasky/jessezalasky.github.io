@@ -37,15 +37,78 @@
     }
 
     .hero-left {
-      display: flex;
-      flex-direction: column;
-    }
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
 
-    .hero-right {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-    }
+.intro-section {
+  margin-bottom: 1rem;
+}
+
+.author-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.author-bio {
+  font-size: 1.125rem;
+  color: #9ca3af;
+  line-height: 1.5;
+}
+
+.section-label {
+  font-size: 1rem;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.skills-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+}
+
+.linkedin-button {
+  background-color: #0077b5;
+  color: white;
+}
+
+.resume-button {
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid #333;
+}
+
+.resume-button:hover {
+  background-color: #262626;
+}
 
     /* Profile card styles */
     .profile-card {
@@ -243,17 +306,47 @@
     <!-- Hero Section -->
     <div class="hero-section">
       <!-- Left Column -->
-      <div class="hero-left">
-        <div class="profile-card">
-          <img src="{{ site.author.image }}" alt="{{ site.author.name }}" class="profile-image">
-          <h2 class="profile-name">{{ site.author.name }}</h2>
-          <p class="profile-bio">{{ site.author.bio }}</p>
-          <div class="social-links">
-            {% if site.author.linkedin %}
-              <a href="{{ site.author.linkedin }}" class="social-link" target="_blank">
-                <img src="/assets/icons/linkedin.svg" alt="LinkedIn" />
-                <span>LinkedIn</span>
-              </a>
+      <!-- Left Column -->
+<div class="hero-left">
+    <!-- Intro Section -->
+    <div class="intro-section">
+      <h2 class="author-name">Jesse Zalasky</h2>
+      <p class="author-bio">Content strategist with a mind geared for innovation.</p>
+    </div>
+  
+    <!-- Skills Section -->
+    <div class="skills-section">
+      <h3 class="section-label">Skills</h3>
+      <div class="skills-stack">
+        <div class="skill-card skill-orange">
+          <span>COPYWRITING & CONTENT STRATEGY</span>
+          <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M7 17L17 7M17 7H7M17 7V17"/>
+          </svg>
+        </div>
+        <div class="skill-card skill-green">
+          <span>WEB DEVELOPMENT & UX WRITING</span>
+          <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M7 17L17 7M17 7H7M17 7V17"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  
+    <!-- CTA Buttons -->
+    <div class="cta-buttons">
+      <a href="{{ site.author.linkedin }}" class="cta-button linkedin-button" target="_blank">
+        <img src="/assets/icons/linkedin.svg" alt="LinkedIn" />
+        <span>LinkedIn</span>
+      </a>
+      <a href="{{ site.author.resume }}" class="cta-button resume-button" target="_blank">
+        <span>Resume</span>
+        <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M7 17L17 7M17 7H7M17 7V17"/>
+        </svg>
+      </a>
+    </div>
+  </div>
             {% endif %}
           </div>
         </div>
