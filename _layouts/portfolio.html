@@ -454,7 +454,7 @@
         </div>
         
         <div class="projects-grid">
-          {% assign sorted_projects = site.projects | sort: "order" %}
+            {% assign sorted_print_projects = site.projects | where: "category", "project" | sort: "order" %}
           {% for project in sorted_projects %}
           <a href="{{ project.url }}" class="project-link">
             <div class="project-card">
@@ -469,8 +469,8 @@
       <!-- Landing Page Development Section -->
       <div class="projects-preview">
         <div class="section-title">
-          <h2 class="title-large">LANDING</h2>
-          <h2 class="title-large title-gray">PAGE DEVELOPMENT</h2>
+          <h2 class="title-large">LANDING PAGE</h2>
+          <h2 class="title-large title-gray">DEVELOPMENT</h2>
         </div>
   
         <div class="projects-grid">
@@ -527,6 +527,26 @@
           </a>
         </div>
       </div>
+            <!-- Short From Development Section -->
+            <div class="projects-preview">
+                <div class="section-title">
+                  <h2 class="title-large">PRINT, PUNS</h2>
+                  <h2 class="title-large title-gray">& MORE</h2>
+                </div>
+                <div class="projects-grid">
+                    {% assign sorted_print_projects = site.projects | where: "category", "print" | sort: "order" %}
+                    {% for project in sorted_projects %}
+                    <a href="{{ project.url }}" class="project-link">
+                      <div class="project-card">
+                        <h4>{{ project.title }}</h4>
+                        <p>{{ project.description }}</p>
+                      </div>
+                    </a>
+                    {% endfor %}
+                  </div>
+                </div>    
+            </div>
+        </div>
     </div>
   
     <!-- Right Column -->
