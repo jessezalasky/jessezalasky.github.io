@@ -30,18 +30,24 @@
 
     /* Hero section styles */
     .hero-section {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr;  /* Creates two columns */
-  gap: 3rem;
-  align-items: start;  /* Aligns content to top */
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;  /* Left column larger than right */
+    gap: 3rem;
+    align-items: start;
 }
 
 .hero-left {
-  position: sticky;  /* Optional: keeps skills visible while scrolling */
-  top: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;  /* Space between sections */
+}
+
+.hero-right {
+    position: sticky;  /* Makes skills and competencies stick while scrolling */
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }
 
 .skills-title {
@@ -393,201 +399,4 @@
         grid-template-columns: 1fr;
       }
     }
-  </style>
-</head>
-<body>
-  <div class="portfolio-page">
-    <!-- Navigation -->
-    <nav class="nav-top">
-      {% for item in site.data.navigation %}
-        <a href="{{ item.link }}" class="nav-link">{{ item.name }}</a>
-      {% endfor %}
-    </nav>
-
-<!-- Hero Section -->
-<div class="hero-section">
-    <!-- Now Left Column (formerly Right) -->
-    <div class="hero-right">
-      <div class="title-stats-section">
-        <h1 class="title-large">JESSE ZALASKY</h1>
-        <h2 class="title-large title-gray">COPYWRITER</h2>
-        <p class="text-gray-400 mb-8 max-w-md">{{ page.description }}</p>
-        
-        <div class="stats-grid">
-          <div>
-            <div class="stat-number">+{{ site.experience_years }}</div>
-            <div class="stat-label">YEARS OF<br>EXPERIENCE</div>
-          </div>
-          <div>
-            <div class="stat-number">+{{ site.words_written }}</div>
-            <div class="stat-label">WORDS<br>WRITTEN</div>
-          </div>
-          <div>
-            <div class="stat-number">+{{ site.clients }}</div>
-            <div class="stat-label">CLIENTS</div>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Recent Projects -->
-      <div class="projects-preview">
-        <div class="section-title">
-          <h2 class="title-large">RECENT</h2>
-          <h2 class="title-large title-gray">WORK</h2>
-        </div>
-        
-        <div class="projects-grid">
-            {% assign sorted_projects = site.projects | sort: "order" %}
-            {% for project in sorted_projects %}
-          <a href="{{ project.url }}" class="project-link">
-            <div class="project-card">
-              <h3>{{ project.title }}</h3>
-              <p>{{ project.description }}</p>
-            </div>
-          </a>
-          {% endfor %}
-        </div>
-      </div>
-    <div class="projects-preview">
-        <div class="section-title">
-          <h2 class="title-large">LANDING</h2>
-          <h2 class="title-large title-gray">PAGE DEVELOPMENT</h2>
-        </div>
-
-        <div class="projects-grid">
-          <a href="https://boutinjones.com/" class="project-link" target="_blank">
-            <div class="project-card-blue">
-              <h3>Boutin Jones</h3>
-              <p>Developed using WordPress.</p>
-            </div>
-          </a>
-
-          <a href="https://www.bayalarm.com/blog/how-do-motion-sensors-work-a-guide/" class="project-link" target="_blank">
-            <div class="project-card-blue">
-              <h3>Ilum Solar</h3>
-              <p>Developed using WordPress.</p>
-            </div>
-          </a>
-
-          <a href="https://www.mifoodcity.com/mi-club" class="project-link" target="_blank">
-            <div class="project-card-blue">
-              <h3>Food City</h3>
-              <p>Developed using Bloomreach.</p>
-            </div>
-          </a>
-          <div class="projects-preview">
-            <div class="section-title">
-              <h2 class="title-large">BLOG</h2>
-              <h2 class="title-large title-gray">WRITING</h2>
-            </div>
-    
-            <div class="projects-grid">
-              <a href="https://www.raleys.com/be-inspired/plant-power-101-how-to-grill-vegetables-to-perfection" class="project-link" target="_blank">
-                <div class="project-card">
-                  <h3>Grillin' Veggies</h3>
-                  <p>I wrote a blog about grilling vegetables.</p>
-                </div>
-              </a>
-    
-              <a href="https://www.bayalarm.com/blog/how-do-motion-sensors-work-a-guide/" class="project-link" target="_blank">
-                <div class="project-card">
-                  <h3>Motion Sensors</h3>
-                  <p>Read my article on motion sensors.</p>
-                </div>
-              </a>
-    
-              <a href="https://www.southforkinst.com/manufacturers-aim-to-speed-product-delivery-amid-supply-chain-issues/" class="project-link" target="_blank">
-                <div class="project-card">
-                  <h3>The Supply Chain</h3>
-                  <p>Some thoughts on the post-COVID economy.</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-    </div>
-  
-    <!-- Now Right Column (formerly Left) -->
-    <div class="hero-left">
-      <!-- Skills Section -->
-      <div class="skills-section">
-        <h2 class="title-large">SKILLS</h2>
-        <div class="skills-stack">
-          <div class="skill-card skill-orange">
-            <span>COPYWRITING & CONTENT STRATEGY</span>
-          </div>
-          
-          <div class="skill-card skill-green">
-            <span>WEB DEVELOPMENT & UX WRITING</span>
-          </div>
-    
-          <div class="skill-card skill-orange">
-            <span>EMAIL MARKETING</span>
-          </div>
-    
-          <div class="skill-card skill-green">
-            <span>HTML & CSS</span>
-          </div>
-    
-          <div class="skill-card skill-orange">
-            <span>CONTENT MANAGEMENT</span>
-          </div>
-        </div>
-      </div>
-      <!-- Add this after your skills-stack div -->
-<div class="core-section">
-    <div class="section-title">
-      <h2 class="title-large">CORE</h2>
-      <h2 class="title-large title-gray">COMPETENCIES</h2>
-    </div>
-    
-    <div class="competencies-grid">
-      <div class="competency-item">
-        <img src="/assets/icons/wordpress.svg" alt="WordPress" class="competency-icon">
-        <div class="competency-info">
-          <h3>WordPress</h3>
-          <p>Website CMS</p>
-        </div>
-      </div>
-  
-      <div class="competency-item">
-        <img src="/assets/icons/bloomreach.svg" alt="Bloomreach" class="competency-icon">
-        <div class="competency-info">
-          <h3>Bloomreach</h3>
-          <p>Website CMS</p>
-        </div>
-      </div>
-  
-      <div class="competency-item">
-        <img src="/assets/icons/salesforce.svg" alt="Salesforce" class="competency-icon">
-        <div class="competency-info">
-          <h3>Salesforce</h3>
-          <p>Email Marketing</p>
-        </div>
-      </div>
-  
-      <div class="competency-item">
-        <img src="/assets/icons/hubspot.svg" alt="HubSpot" class="competency-icon">
-        <div class="competency-info">
-          <h3>HubSpot</h3>
-          <p>Marketing Automation</p>
-        </div>
-      </div>
-    </div>
-  </div>
-    
-      <!-- CTA Buttons -->
-      <div class="cta-buttons">
-        <a href="{{ site.author.linkedin }}" class="cta-button linkedin-button" target="_blank">
-          <img src="/assets/icons/linkedin.svg" alt="LinkedIn" />
-          <span>LinkedIn</span>
-        </a>
-        <a href="{{ site.author.resume }}" class="cta-button resume-button" target="_blank">
-          <span>Resume</span>
-          <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2">
-            <path d="M7 17L17 7M17 7H7M17 7V17"/>
-          </svg>
-        </a>
-      </div>
-    </div>
-  </div>
+ 
