@@ -254,7 +254,7 @@ author:
   image: /assets/img/Profile_Pic.jpg
   bio: Content strategist with a mind geared for innovation.
   linkedin: https://www.linkedin.com/in/jesse-zalasky/
-  resume: assets/pdf/Jesse Zalasky Copywriting Resume.pdf
+  resume: /assets/pdf/Jesse Zalasky Copywriting Resume.pdf
 
 experience_years: 6
 words_written: 100K

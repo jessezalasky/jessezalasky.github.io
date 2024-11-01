@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Per Mar Security"
-description: "See how I learned from Bay Alarm, replicating previous success as content architect for second security company."
+description: "Get a closer look at what I did as content architect for Per Mar's new wesbite."
 permalink: /creative-portfolio/per-mar-security
 summary: "Food City is fun."
 What I Do:
