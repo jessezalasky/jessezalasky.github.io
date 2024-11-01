@@ -67,6 +67,22 @@
     margin-top: 1.5rem;
 }
 
+.project-card-blue {
+    background-color: #3b82f6; /* Replace with your desired blue shade */
+    padding: 1.5rem;
+    border-radius: 1rem;
+    transition: transform 0.3s;
+  }
+  
+  .project-card-blue:hover {
+    transform: translateY(-4px);
+  }
+  
+  .project-card-blue h3,
+  .project-card-blue p {
+    color: white;
+  }
+
 @media (max-width: 768px) {
     .projects-grid {
         grid-template-columns: 1fr;
