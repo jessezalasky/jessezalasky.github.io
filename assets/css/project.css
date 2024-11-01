@@ -67,22 +67,33 @@
     margin-top: 1.5rem;
 }
 
-.project-card-blue {
+/* Style for blue project cards */
+.project-card.project-card-blue {
     background-color: #3b82f6; /* Replace with your desired blue shade */
     padding: 1.5rem;
     border-radius: 1rem;
     transition: transform 0.3s;
   }
   
-  .project-card-blue:hover {
+  /* Hover effect */
+  .project-card.project-card-blue:hover {
     transform: translateY(-4px);
   }
   
-  .project-card-blue h3,
-  .project-card-blue p {
+  /* Heading style */
+  .project-card h3 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
     color: white;
   }
-
+  
+  /* Paragraph style for all project cards */
+  .project-card p {
+    font-size: 0.875rem;
+    color: white;
+  }
+  
 @media (max-width: 768px) {
     .projects-grid {
         grid-template-columns: 1fr;
