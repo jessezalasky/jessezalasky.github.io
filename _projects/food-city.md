@@ -2,7 +2,7 @@
 layout: project
 title: "Food City"
 order: 2
-description: "Learn how I contributed to Food City's new website & Mi Club loyalty launch."
+description: "Learn how I helped launch the Mi Club loyalty program."
 permalink: /creative-portfolio/food-city
 summary: "Food City is fun."
 What I Do:

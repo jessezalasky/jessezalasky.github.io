@@ -231,6 +231,58 @@
       white-space: pre-line;
     }
 
+    /* Tools styles */
+    .tools-section {
+  margin-top: 3rem;
+}
+
+.tools-title {
+  font-size: 3.75rem;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+}
+
+.title-gray {
+  color: #4b5563;
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.tool-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #1a1a1a;
+  border-radius: 0.75rem;
+}
+
+.tool-icon {
+  width: 48px;
+  height: 48px;
+  background: white;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.tool-info h3 {
+  color: white;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.tool-info p {
+  color: #9ca3af;
+  font-size: 0.875rem;
+  margin: 0.25rem 0 0 0;
+}
+
     /* Recent Projects styles */
     .projects-preview {
       margin: 2rem 0;
@@ -412,6 +464,45 @@
             <path d="M7 17L17 7M17 7H7M17 7V17"/>
           </svg>
         </a>
+      </div>
+    </div>
+  </div>
+  <!-- Premium Tools Section -->
+<div class="tools-section">
+    <h2 class="tools-title">CORE</h2>
+    <h2 class="tools-title title-gray">COMPETENCIESS</h2>
+    
+    <div class="tools-grid">
+      <div class="tool-item">
+        <img src="/assets/icons/wordpress.svg" alt="Wordpress" class="tool-icon">
+        <div class="tool-info">
+          <h3>WordPress</h3>
+          <p>Website CMS</p>
+        </div>
+      </div>
+      
+      <div class="tool-item">
+        <img src="/assets/icons/bloomreach.svg" alt="Bloomreach" class="tool-icon">
+        <div class="tool-info">
+          <h3>Bloomreach</h3>
+          <p>Website CMS</p>
+        </div>
+      </div>
+  
+      <div class="tool-item">
+        <img src="/assets/icons/salesforce.svg" alt="Salesforce" class="tool-icon">
+        <div class="tool-info">
+          <h3>Salesforce</h3>
+          <p>Email Marketing</p>
+        </div>
+      </div>
+  
+      <div class="tool-item">
+        <img src="/assets/icons/hubspot.svg" alt="HubSpot" class="tool-icon">
+        <div class="tool-info">
+          <h3>HubSpot</h3>
+          <p>Marketing Automation</p>
+        </div>
       </div>
     </div>
   </div>
