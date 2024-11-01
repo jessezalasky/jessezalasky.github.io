@@ -1,12 +1,12 @@
 ---
 layout: project
-title: "Food City"
-description: "Learn how I contributed to Food City's new website & Mi Club loyalty launch."
+title: "Bay Alarm"
+description: "See how my copywriting and digital strategies elevated the Bay Alarm brand."
 permalink: /creative-portfolio/food-city
 summary: "Food City is fun."
 What I Do:
   - Copywriting
   - Content Strategy
   - Landing Page Development
-  - CMS Management
+  - Workflow Automation Implementation
 ---
