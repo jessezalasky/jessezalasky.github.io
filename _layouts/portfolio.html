@@ -412,8 +412,8 @@
 
 <!-- Hero Section -->
 <div class="hero-section">
-    <!-- Now Left Column (formerly Right) -->
-    <div class="hero-right">
+    <!-- Left Column -->
+    <div class="hero-left">
       <div class="title-stats-section">
         <h1 class="title-large">JESSE ZALASKY</h1>
         <h2 class="title-large title-gray">COPYWRITER</h2>
@@ -443,8 +443,8 @@
         </div>
         
         <div class="projects-grid">
-            {% assign sorted_projects = site.projects | sort: "order" %}
-            {% for project in sorted_projects %}
+          {% assign sorted_projects = site.projects | sort: "order" %}
+          {% for project in sorted_projects %}
           <a href="{{ project.url }}" class="project-link">
             <div class="project-card">
               <h3>{{ project.title }}</h3>
@@ -454,12 +454,14 @@
           {% endfor %}
         </div>
       </div>
-    <div class="projects-preview">
+  
+      <!-- Landing Page Development Section -->
+      <div class="projects-preview">
         <div class="section-title">
           <h2 class="title-large">LANDING</h2>
           <h2 class="title-large title-gray">PAGE DEVELOPMENT</h2>
         </div>
-
+  
         <div class="projects-grid">
           <a href="https://boutinjones.com/" class="project-link" target="_blank">
             <div class="project-card-blue">
@@ -467,54 +469,57 @@
               <p>Developed using WordPress.</p>
             </div>
           </a>
-
+  
           <a href="https://www.bayalarm.com/blog/how-do-motion-sensors-work-a-guide/" class="project-link" target="_blank">
             <div class="project-card-blue">
               <h3>Ilum Solar</h3>
               <p>Developed using WordPress.</p>
             </div>
           </a>
-
+  
           <a href="https://www.mifoodcity.com/mi-club" class="project-link" target="_blank">
             <div class="project-card-blue">
               <h3>Food City</h3>
               <p>Developed using Bloomreach.</p>
             </div>
           </a>
-          <div class="projects-preview">
-            <div class="section-title">
-              <h2 class="title-large">BLOG</h2>
-              <h2 class="title-large title-gray">WRITING</h2>
-            </div>
-    
-            <div class="projects-grid">
-              <a href="https://www.raleys.com/be-inspired/plant-power-101-how-to-grill-vegetables-to-perfection" class="project-link" target="_blank">
-                <div class="project-card">
-                  <h3>Grillin' Veggies</h3>
-                  <p>I wrote a blog about grilling vegetables.</p>
-                </div>
-              </a>
-    
-              <a href="https://www.bayalarm.com/blog/how-do-motion-sensors-work-a-guide/" class="project-link" target="_blank">
-                <div class="project-card">
-                  <h3>Motion Sensors</h3>
-                  <p>Read my article on motion sensors.</p>
-                </div>
-              </a>
-    
-              <a href="https://www.southforkinst.com/manufacturers-aim-to-speed-product-delivery-amid-supply-chain-issues/" class="project-link" target="_blank">
-                <div class="project-card">
-                  <h3>The Supply Chain</h3>
-                  <p>Some thoughts on the post-COVID economy.</p>
-                </div>
-              </a>
-            </div>
-          </div>
         </div>
+      </div>
+  
+      <!-- Blog Writing Section -->
+      <div class="projects-preview">
+        <div class="section-title">
+          <h2 class="title-large">BLOG</h2>
+          <h2 class="title-large title-gray">WRITING</h2>
+        </div>
+  
+        <div class="projects-grid">
+          <a href="https://www.raleys.com/be-inspired/plant-power-101-how-to-grill-vegetables-to-perfection" class="project-link" target="_blank">
+            <div class="project-card">
+              <h3>Grillin' Veggies</h3>
+              <p>I wrote a blog about grilling vegetables.</p>
+            </div>
+          </a>
+  
+          <a href="https://www.bayalarm.com/blog/how-do-motion-sensors-work-a-guide/" class="project-link" target="_blank">
+            <div class="project-card">
+              <h3>Motion Sensors</h3>
+              <p>Read my article on motion sensors.</p>
+            </div>
+          </a>
+  
+          <a href="https://www.southforkinst.com/manufacturers-aim-to-speed-product-delivery-amid-supply-chain-issues/" class="project-link" target="_blank">
+            <div class="project-card">
+              <h3>The Supply Chain</h3>
+              <p>Some thoughts on the post-COVID economy.</p>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   
-    <!-- Now Right Column (formerly Left) -->
-    <div class="hero-left">
+    <!-- Right Column -->
+    <div class="hero-right">
       <!-- Skills Section -->
       <div class="skills-section">
         <h2 class="title-large">SKILLS</h2>
@@ -540,55 +545,56 @@
           </div>
         </div>
       </div>
-      <!-- Add this after your skills-stack div -->
-<div class="core-section">
-    <div class="section-title">
-      <h2 class="title-large">CORE</h2>
-      <h2 class="title-large title-gray">COMPETENCIES</h2>
-    </div>
-    
-    <div class="competencies-grid">
-      <div class="competency-item">
-        <img src="/assets/icons/wordpress.svg" alt="WordPress" class="competency-icon">
-        <div class="competency-info">
-          <h3>WordPress</h3>
-          <p>Website CMS</p>
+  
+      <!-- Core Competencies Section -->
+      <div class="core-section">
+        <div class="section-title">
+          <h2 class="title-large">CORE</h2>
+          <h2 class="title-large title-gray">COMPETENCIES</h2>
+        </div>
+        
+        <div class="competencies-grid">
+          <div class="competency-item">
+            <img src="/assets/icons/wordpress.svg" alt="WordPress" class="competency-icon">
+            <div class="competency-info">
+              <h3>WordPress</h3>
+              <p>Website CMS</p>
+            </div>
+          </div>
+      
+          <div class="competency-item">
+            <img src="/assets/icons/bloomreach.svg" alt="Bloomreach" class="competency-icon">
+            <div class="competency-info">
+              <h3>Bloomreach</h3>
+              <p>Website CMS</p>
+            </div>
+          </div>
+      
+          <div class="competency-item">
+            <img src="/assets/icons/salesforce.svg" alt="Salesforce" class="competency-icon">
+            <div class="competency-info">
+              <h3>Salesforce</h3>
+              <p>Email Marketing</p>
+            </div>
+          </div>
+      
+          <div class="competency-item">
+            <img src="/assets/icons/hubspot.svg" alt="HubSpot" class="competency-icon">
+            <div class="competency-info">
+              <h3>HubSpot</h3>
+              <p>Marketing Automation</p>
+            </div>
+          </div>
         </div>
       </div>
   
-      <div class="competency-item">
-        <img src="/assets/icons/bloomreach.svg" alt="Bloomreach" class="competency-icon">
-        <div class="competency-info">
-          <h3>Bloomreach</h3>
-          <p>Website CMS</p>
-        </div>
-      </div>
-  
-      <div class="competency-item">
-        <img src="/assets/icons/salesforce.svg" alt="Salesforce" class="competency-icon">
-        <div class="competency-info">
-          <h3>Salesforce</h3>
-          <p>Email Marketing</p>
-        </div>
-      </div>
-  
-      <div class="competency-item">
-        <img src="/assets/icons/hubspot.svg" alt="HubSpot" class="competency-icon">
-        <div class="competency-info">
-          <h3>HubSpot</h3>
-          <p>Marketing Automation</p>
-        </div>
-      </div>
-    </div>
-  </div>
-    
       <!-- CTA Buttons -->
       <div class="cta-buttons">
         <a href="{{ site.author.linkedin }}" class="cta-button linkedin-button" target="_blank">
           <img src="/assets/icons/linkedin.svg" alt="LinkedIn" />
           <span>LinkedIn</span>
         </a>
-        <a href="{{ site.author.resume }}" class="cta-button resume-button" target="_blank">
+        <a href="/assets/pdf/Jesse%20Zalasky%20Copywriting%20Resume.pdf" class="cta-button resume-button" target="_blank">
           <span>Resume</span>
           <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2">
             <path d="M7 17L17 7M17 7H7M17 7V17"/>
