@@ -21,7 +21,7 @@ nav_order: 2
                     <div class="stat-label">YEARS OF<br>EXPERIENCE</div>
                 </div>
                 <div>
-                    <div class="stat-number">+{{ site.words_written }}</div>
+                    <div class="stat-number" id="words-counter">+{{ site.words_written }}</div>
                     <div class="stat-label">WORDS<br>WRITTEN</div>
                 </div>
                 <div>
@@ -217,3 +217,15 @@ nav_order: 2
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const counterElement = document.getElementById('words-counter');
+    let count = parseInt(counterElement.textContent.replace(/\D/g, '')); // Remove non-digits
+    
+    setInterval(() => {
+        count++;
+        counterElement.textContent = '+' + count.toLocaleString();
+    }, 1000); // Updates every second
+});
+</script>
