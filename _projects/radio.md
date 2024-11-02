@@ -2,7 +2,7 @@
 layout: project
 title: "Radio Ads"
 order: 3
-description: "Listen to some of the radio ads I've written & produced."
+description: "Radio ads I wrote & produced."
 permalink: /creative-portfolio/radio
 summary: "Food City is fun."
 category: print

@@ -2,7 +2,7 @@
 layout: project
 title: "Puns"
 order: 2
-description: "Food puns I write and have a lot of fun with."
+description: "Probably the most fun I've had on the job."
 permalink: /creative-portfolio/puns
 summary: "Food City is fun."
 category: print
