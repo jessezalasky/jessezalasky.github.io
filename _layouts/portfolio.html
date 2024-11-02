@@ -200,6 +200,56 @@
       margin-right: 0.5rem;
     }
 
+    .contact-form {
+    margin-top: 1.5rem;
+    width: 100%;
+}
+/* Form */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #374151;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}
+
+.form-group textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #6B7280;
+}
+
+.submit-button {
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: white;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #E5E7EB;
+}
+
+/* Placeholder color */
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #6B7280;
+}
+
     /* Title and stats styles */
     .title-stats-section {
       margin-bottom: 1rem;
@@ -630,6 +680,31 @@
                 </svg>
             </a>
         </div>
+        <!-- Contact Form Section -->
+<div class="core-section">
+    <div class="section-title">
+        <h2 class="title-large">GET IN</h2>
+        <h2 class="title-large title-gray">TOUCH</h2>
+    </div>
+    <!-- Form -->
+    <form id="contact-form" class="contact-form">
+        <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+            <textarea id="message" name="message" placeholder="Message" required></textarea>
+        </div>
+        <button type="submit" class="cta-button submit-button">
+            <span>Submit</span>
+            <svg class="arrow-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2">
+                <path d="M7 17L17 7M17 7H7M17 7V17"/>
+            </svg>
+        </button>
+    </form>
+</div>
     </div>
 </div>
 
