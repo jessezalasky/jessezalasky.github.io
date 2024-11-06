@@ -9,15 +9,14 @@
       color: white;
       min-height: 100vh;
       padding: 2rem;
-      width: 100%;
-      overflow-x: hidden;  /* Prevent horizontal scroll */
+      width: 100vw;
+      box-sizing: border-box;
     }
 
     .nav-top {
-      display: flex;
-      justify-content: flex-end;
-      gap: 1.5rem;
-      margin-bottom: 4rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
     }
 
     .nav-link {
@@ -37,6 +36,8 @@
     grid-template-columns: 1.5fr 1fr;  /* Left column larger than right */
     gap: 3rem;
     align-items: start;
+    width: 100vw;
+    box-sizing: border-box;
 }
 
 .hero-left {
@@ -115,6 +116,8 @@
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
+  flex-direction: column;
+  width: 100%;
 }
 
 .cta-button {
@@ -127,6 +130,8 @@
   font-weight: 500;
   text-decoration: none;
   transition: transform 0.2s;
+  width: 100%;
+  justify-content: center;
 }
 
 .cta-button:hover {
@@ -225,7 +230,7 @@
     border: 1px solid #374151;
     background-color: transparent;
     color: #fff;
-    font-size: 1rem;
+    font-size: 16px;
     border-radius: 0.25rem;
 }
 
@@ -269,8 +274,10 @@
       font-weight: bold;
       line-height: 1;
       margin: 0;
-      max-width: 100%;  /* Ensure text doesn't overflow */
-      word-break: break-word;
+      width: 100%;  /* Ensure text doesn't overflow */
+      word-wrap: break-word;
+      hyphens: auto;
+      line-height: 1.2;
     }
 
     .title-gray {
@@ -290,7 +297,7 @@
       font-size: 3.5rem;
       font-weight: bold;
       margin-bottom: 0.5rem;
-      white-space: nowrap;
+      white-space: normal;
     }
 
     .stat-label {
@@ -398,11 +405,17 @@
       font-weight: bold;
       margin-bottom: 0.5rem;
       color: white;
+      width: 100%;
+      white-space: normal;
+      overflow-wrap: break-word;
     }
 
     .project-card p {
       font-size: 0.875rem;
       color: white;
+      width: 100%;
+      white-space: normal;
+      overflow-wrap: break-word;
     }
 
     .project-link {
@@ -433,12 +446,18 @@
   font-weight: bold;
   margin-bottom: 0.5rem;
   color: white;
+  width: 100%;
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 
 /* Paragraph style for all project cards */
 .project-card-blue p {
   font-size: 0.875rem;
   color: white;
+  width: 100%;
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 
 
@@ -458,6 +477,7 @@
       justify-content: space-between;
       align-items: center;
       transition: transform 0.3s;
+      font-size: 0.9rem;
     }
 
     .skill-card:hover {
