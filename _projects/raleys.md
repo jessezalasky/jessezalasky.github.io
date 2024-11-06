@@ -13,28 +13,18 @@ What I Do:
   - CMS Management
 ---
 
-<!-- Remove this as the title is already handled in the layout -->
-<!-- # {{ page.title }} -->
-
-<!-- Remove this div as these sections are handled in the layout -->
-<!-- <div class="project-summary">
-  <div class="overview">
-    <h2>Overview</h2>
-    <p>{{ page.summary }}</p>
-  </div>
-  <div class="skills">
-    <h2>What I Did</h2>
-    <ul>
-    {% for skill in page.skills %}
-      <li>{{ skill }}</li>
-    {% endfor %}
-    </ul>
-  </div>
-</div> -->
-
 ## Project Details
 
-This is where you can start writing about your project in more detail. You can use standard Markdown formatting here.
+This website was a project years in the making, meant to transform Raley's online brand identity and give the ecommerce team full control of UX and creative. 
+
+<div class="laptop-wrapper">
+  <div class="laptop">
+    <div class="laptop-screen">
+      <img src="_site\assets\img\new raleys.png" alt="raleys website">
+    </div>
+  </div>
+  <div class="laptop-base"></div>
+</div>
 
 ### Subheading
 
