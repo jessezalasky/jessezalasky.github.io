@@ -34,6 +34,8 @@ You can include various subheadings to organize your content.
 
 More paragraphs and content can be added here. You can include as many images as needed throughout the text.
 
+<img src="assets/img/new raleys img.png" alt="raleys website">
+
 ## Results
 
 Discuss the outcomes of your project here.
