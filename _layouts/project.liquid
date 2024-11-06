@@ -119,19 +119,22 @@
     }
 
 /* Updated Laptop Mockup Styles */
+/* Updated CSS */
 .laptop-wrapper {
-  max-width: 1200px;
+  max-width: 1000px; /* Reduced to ensure laptop fits in viewport */
   margin: 40px auto;
   padding: 20px;
-  background: transparent; /* Make wrapper background transparent */
+  background: transparent;
 }
 
 .laptop {
-  background: #2a2a2a; /* Darker background for laptop frame */
+  background: #2a2a2a;
   border-radius: 18px;
-  border: 2px solid #444; /* More visible border */
-  padding: 15px 15px 20px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* More pronounced shadow */
+  border: 2px solid #444;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  width: 100%;
+  box-sizing: border-box; /* Add this to include padding in width calculation */
 }
 
 .laptop-screen {
@@ -140,39 +143,27 @@
   overflow: hidden;
   position: relative;
   box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
-  min-height: 500px; /* Add this */
-  width: 800px; /* Add this */
-  margin: 0 auto; /* Add this to center it */
-}
+  height: 500px;
+  width: 100%; /* Change to 100% to stay within laptop */
+  margin: 0 auto;
+  box-sizing: border-box; /* Add this */
 }
 
 .laptop-screen img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
-  background: white; /* Ensure image background is white */
+  object-fit: cover; /* This will ensure image covers the area without stretching */
 }
 
 .laptop-base {
-  background: #333; /* Darker base */
+  background: #333;
   height: 20px;
   margin: 0 auto;
   margin-top: -2px;
   border-radius: 0 0 20px 20px;
   width: 80%;
   position: relative;
-}
-
-.laptop-base::after {
-  content: '';
-  position: absolute;
-  width: 20%;
-  height: 4px;
-  background: #444; /* Slightly lighter than base */
-  border-radius: 0 0 4px 4px;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 3px;
 }
   </style>
 </head>
