@@ -9,6 +9,8 @@
       color: white;
       min-height: 100vh;
       padding: 2rem;
+      width: 100%;
+      overflow-x: hidden;  /* Prevent horizontal scroll */
     }
 
     .nav-top {
@@ -41,6 +43,9 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;  /* Space between sections */
+    width: 100%;
+    padding-right: 0;
+    box-sizing: border-box;
 }
 
 .hero-right {
@@ -48,6 +53,9 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    width: 100%;
+    padding-right: 0;
+    box-sizing: border-box;
 }
 
 .skills-title {
@@ -261,6 +269,8 @@
       font-weight: bold;
       line-height: 1;
       margin: 0;
+      max-width: 100%;  /* Ensure text doesn't overflow */
+      word-break: break-word;
     }
 
     .title-gray {
@@ -272,6 +282,8 @@
       grid-template-columns: repeat(3, 1fr);
       gap: 2rem;
       margin-top: 2rem;
+      width: 100%;
+      margin-right: 0;
     }
 
     .stat-number {
@@ -362,6 +374,9 @@
       grid-template-columns: repeat(3, 1fr);
       gap: 1rem;
       margin-top: 1.5rem;
+      width: 100%;
+       margin-right: 0; 
+       padding: 0;
     }
 
     .project-card {
@@ -369,6 +384,9 @@
       padding: 1.5rem;
       border-radius: 1rem;
       transition: transform 0.3s;
+      width: 100%;
+      margin-right: 0;
+      box-sizing: border-box;  /* Include padding in width calculation */
     }
 
     .project-card:hover {
@@ -399,6 +417,9 @@
   padding: 1.5rem;
   border-radius: 1rem;
   transition: transform 0.3s;
+  width: 100%;
+  margin-right: 0;
+  box-sizing: border-box;  /* Include padding in width calculation */
 }
 
 /* Hover effect */
@@ -461,6 +482,9 @@
       
       .projects-grid {
         grid-template-columns: 1fr;
+        width: 100%;
+        margin-right: 0;
+        padding: 0;
       }
     }
   </style>
