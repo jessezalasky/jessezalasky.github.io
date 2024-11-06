@@ -20,7 +20,7 @@ This website was a project years in the making, meant to transform Raley's onlin
 <div class="laptop-wrapper">
   <div class="laptop">
     <div class="laptop-screen">
-      <img src="{{ site.baseurl }}assets/img/raleys.jpg" alt="raleys website">
+      <img src="assets/img/raleys.jpg" alt="raleys website">
     </div>
   </div>
   <div class="laptop-base"></div>
