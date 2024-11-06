@@ -20,7 +20,7 @@ This website was a project years in the making, meant to transform Raley's onlin
 <div class="laptop-wrapper">
   <div class="laptop">
     <div class="laptop-screen">
-      <img src="{{ site.baseurl }}assets/img/raleys.jpg" alt="raleys website">
+      <img src="{{ site.baseurl }}assets/img/raleysnew.jpg" alt="raleys website">
     </div>
   </div>
   <div class="laptop-base"></div>
@@ -34,7 +34,7 @@ You can include various subheadings to organize your content.
 
 More paragraphs and content can be added here. You can include as many images as needed throughout the text.
 
-![raley's website](assets/img/raleys.jpg)
+![raley's website](assets/img/raleysnew.jpg)
 
 ## Results
 
