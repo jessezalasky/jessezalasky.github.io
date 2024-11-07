@@ -118,7 +118,7 @@ Customers get savings at their fingertips - I know because I write the push noti
   </div>
   <div class="phone-mockup">
     <div class="phone-screen">
-      <img src="{{ site.baseurl }}assets/img/raleyspush2.jpg" alt="Raley's push notification">
+      <img src="{{ site.baseurl }}assets/img/raleyspush4.jpg" alt="Raley's push notification">
     </div>
   </div>
   <div class="phone-mockup">
@@ -133,11 +133,23 @@ Customers get savings at their fingertips - I know because I write the push noti
 Raley's Weekly Ad drops in-store, in mailboxes, and online every Wednesday. I'm there to provide headline copy that showcases the sale items featured for the week. 
 
 <div class="image-container">
-  <img src="{{ site.baseurl }}assets/img/weeklyad1.jpg" alt="Image 1">
-  <img src="{{ site.baseurl }}assets/img/weeklyad2.jpg" alt="Image 2">
+  <img src="{{ site.baseurl }}assets/img/weeklyad1.jpg" alt="weekly add">
+  <img src="{{ site.baseurl }}assets/img/weeklyad2.jpg" alt="weekly ad">
 </div>
 
+### Radio Ads
 
+Raley's is a major retailer in northern California and Nevada, but it can't compete with the Safeway's of the world without terrestrial radio. I've had the chance to write and produced radio advertisments, directing the script recording session with Raley's voice talent. 
+
+<audio controls>
+    <source src="{{ site.baseurl }}assets/audio/raleysradio.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
+
+<audio controls>
+    <source src="{{ site.baseurl }}assets/audio/raleysradio2.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+</audio>
 
 
 ## Results
