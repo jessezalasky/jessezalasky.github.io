@@ -190,7 +190,7 @@
   content: '';
   position: absolute;
   width: 50%;
-  height: 25px;
+  height: 10px;
   background: #000;
   top: 0;
   left: 50%;
@@ -203,13 +203,14 @@
   background: white;
   border-radius: 30px;
   overflow: hidden;
-  aspect-ratio: 9/19.5; /* iPhone aspect ratio */
+  width: 390px;
+  height: 844px; /* iPhone aspect ratio */
 }
 
 .phone-screen img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
 }
   </style>
