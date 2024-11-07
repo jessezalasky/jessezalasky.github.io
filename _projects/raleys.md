@@ -15,7 +15,8 @@ What I Do:
 
 ## Project Details
 
-This website was a project years in the making, meant to transform Raley's online brand identity and give the ecommerce team full control of UX and creative. 
+This website was a project years in the making, meant to transform Raley's online brand identity and give the ecommerce team full control of UX and creative. It represents a major jump in technical sophistication, merging the power of creative and the analytics of ecomm. The elements you see on the page tell a story that is designed to sell more products. 
+
 
 <div class="laptop-wrapper">
   <div class="laptop">
@@ -26,13 +27,7 @@ This website was a project years in the making, meant to transform Raley's onlin
   <div class="laptop-base"></div>
 </div>
 
-### Subheading
-
-The website represents a major jump in technical sophistication, merging the power of creative and the analytics of ecomm. The elements you see on the page tell a story that is designed to sell more products. 
-
-I wrote the copy for the brand's Something Extra member loyalty program. 
-
-<img src="{{ site.baseurl }}assets/img/raleysweb.jpg" alt="raleys website">
+### Raley's App
 
 The branding extends to the Raley's app - an all-new platform, developed in tandem with the new website, that makes it easier to shop and save. Again, this app enabled in-house creative to supercharge the brand. The app and website result in a seamless UX.
 
