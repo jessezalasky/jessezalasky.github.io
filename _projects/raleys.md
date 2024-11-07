@@ -18,13 +18,13 @@ My Contributions:
 
 ### Raley's Website
 
-This website was a project years in the making, meant to transform Raley's online brand identity and give the ecommerce team full control of UX and creative. It represents a major jump in technical sophistication, merging the power of creative and the analytics of ecomm. The elements you see on the page tell a story that is designed to sell more products. 
+This website was a project years in the making, meant to transform Raley's online brand identity and give the ecommerce team full control of UX and creative. It represents a major jump in technical sophistication. The new website is the basis of all emerging campaigns and enables Raley's to tell a cohesive brand story crafted by the marketing team.
 
 Here's what I contributed:
 
-* Wrote copy for homepage graphics.
+* Wrote copy for homepage and ecomm graphics.
 * Collaborated with web design team to determine page layout and UX.
-* Developed landing page using Bloomreach.
+* Developed landing pages using Bloomreach.
 
 <div class="laptop-wrapper">
   <div class="laptop">
@@ -128,6 +128,14 @@ Customers get savings at their fingertips - I know because I write the push noti
   </div>
 </div>
 
+### Weekly Ad
+
+Raley's Weekly Ad drops in-store, in mailboxes, and online every Wednesday. I'm there to provide headline copy that showcases the sale items featured for the week. 
+
+<div class="image-container">
+  <img src="{{ site.baseurl }}assets/img/weeklyad1.jpg" alt="Image 1">
+  <img src="{{ site.baseurl }}assets/img/weeklyad2.jpg" alt="Image 2">
+</div>
 
 
 
