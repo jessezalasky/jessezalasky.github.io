@@ -15,7 +15,17 @@ What I Do:
 
 ## Project Details
 
+### Raley's Website
+
 This website was a project years in the making, meant to transform Raley's online brand identity and give the ecommerce team full control of UX and creative. It represents a major jump in technical sophistication, merging the power of creative and the analytics of ecomm. The elements you see on the page tell a story that is designed to sell more products. 
+
+Here's how I pitched in:
+
+<ul>
+  <li>Wrote copy for homepage graphics.</li>
+  <li>Collaborated with web design team to determine page layout and UX.</li>
+  <li>Developed landing page using Bloomreach.</li>
+</ul>
 
 
 <div class="laptop-wrapper">
@@ -30,6 +40,15 @@ This website was a project years in the making, meant to transform Raley's onlin
 ### Raley's App
 
 The branding extends to the Raley's app - an all-new platform, developed in tandem with the new website, that makes it easier to shop and save. Again, this app enabled in-house creative to supercharge the brand. The app and website result in a seamless UX.
+
+Here's how I pitched in:
+
+<ul>
+  <li>Wrote copy for app graphics.</li>
+  <li>Collaborated with web design team to determine app layout and UX.</li>
+  <li>Developed app pages using Bloomreach.</li>
+  <li>Created wireframe layout for new Something Extra Rewards dashboard.</li>
+</ul>
 
 <div class="phone-wrapper">
   <div class="phone-mockup">
