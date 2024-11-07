@@ -180,9 +180,11 @@
 .phone-mockup {
   background: #000;
   border-radius: 40px;
-  padding: 0px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.5); /* Deepened shadow for dark theme */
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
   position: relative;
+  overflow: hidden; /* Add this to ensure no content bleeds */
 }
 
 /* iPhone notch */
@@ -204,6 +206,10 @@
   border-radius: 30px;
   overflow: hidden;
   aspect-ratio: 9/19.5; /* iPhone aspect ratio */
+  margin: 0; /* Add this */
+  padding: 0; /* Add this */
+  display: block; /* Add this */
+  line-height: 0; /* Add this to remove any potential line-height spacing */
 }
 
 .phone-screen img {
@@ -211,6 +217,8 @@
   height: 100%;
   object-fit: cover;
   display: block;
+  margin: 0; /* Add this */
+  padding: 0; /* Add this */
 }
   </style>
 </head>
