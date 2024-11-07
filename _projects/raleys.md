@@ -48,7 +48,6 @@ Here's what I contributed:
 * Developed app pages using Bloomreach.
 * Created wireframe layout for new Something Extra Rewards dashboard.
 
-
 <div class="phone-wrapper">
   <div class="phone-mockup">
     <div class="phone-screen">
@@ -86,6 +85,10 @@ Here's what I contributed:
 </div>
 
 ### Email Copywriting & Development
+
+I write copy for email headlines, preheaders, subject lines, and email snipes. Copy and branding remains seamless across all touchpoints. You'll find Raley's shouting about holiday meals here, too. 
+
+I also develop, test, and send emails using Salesforce. This email is part of the Something Extra loyalty program and reaches over 1 million inboxes each week. 
 
 <div class="phone-wrapper">
   <div class="phone-mockup">
