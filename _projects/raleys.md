@@ -6,11 +6,12 @@ description: "Check out some of the projects I worked on in my time at Raley's!"
 permalink: /creative-portfolio/raleys
 summary: "Raley's is all about nourishing its customers. Without the right messaging and creative brand strategy, they could just be another grocery chain. I've had the opportunity to deploy a new website and write mountains of copy for digital and print to help the Raley's brand flourish."
 category: project
-What I Do:
+My Contributions:
   - Copywriting
   - Content Strategy
   - Landing Page Development
   - CMS Management
+  - Email Development
 ---
 
 ## Project Details
@@ -21,12 +22,9 @@ This website was a project years in the making, meant to transform Raley's onlin
 
 Here's what I contributed:
 
-
 * Wrote copy for homepage graphics.
 * Collaborated with web design team to determine page layout and UX.
 * Developed landing page using Bloomreach.
-
-
 
 <div class="laptop-wrapper">
   <div class="laptop">
@@ -69,7 +67,7 @@ Here's what I contributed:
 <div class="phone-wrapper">
   <div class="phone-mockup">
     <div class="phone-screen">
-      <img src="{{ site.baseurl }}assets/img/raleysapp4.jpg" alt="Raley's homepage">
+      <img src="{{ site.baseurl }}assets/img/raleysapp4.jpg" alt="Raley's app">
     </div>
   </div>
   <div class="phone-mockup">
@@ -93,17 +91,39 @@ I also develop, test, and send emails using Salesforce. This email is part of th
 <div class="phone-wrapper">
   <div class="phone-mockup">
     <div class="phone-screen">
-      <img src="{{ site.baseurl }}assets/img/raleysemail.jpg" alt="Raley's homepage">
+      <img src="{{ site.baseurl }}assets/img/raleysemail.jpg" alt="Raley's email">
     </div>
   </div>
   <div class="phone-mockup">
     <div class="phone-screen">
-      <img src="{{ site.baseurl }}assets/img/raleysemail2.jpg" alt="Raley's app">
+      <img src="{{ site.baseurl }}assets/img/raleysemail2.jpg" alt="Raley's email">
     </div>
   </div>
   <div class="phone-mockup">
     <div class="phone-screen">
-      <img src="{{ site.baseurl }}assets/img/raleysemail3.jpg" alt="Raley's app">
+      <img src="{{ site.baseurl }}assets/img/raleysemail3.jpg" alt="Raley's email">
+    </div>
+  </div>
+</div>
+
+### Push Notifications
+
+Customers get savings at their fingertips - I know because I write the push notifications. 
+
+<div class="phone-wrapper">
+  <div class="phone-mockup">
+    <div class="phone-screen">
+      <img src="{{ site.baseurl }}assets/img/raleyspush.jpg" alt="Raley's push notification">
+    </div>
+  </div>
+  <div class="phone-mockup">
+    <div class="phone-screen">
+      <img src="{{ site.baseurl }}assets/img/raleyspush2.jpg" alt="Raley's push notification">
+    </div>
+  </div>
+  <div class="phone-mockup">
+    <div class="phone-screen">
+      <img src="{{ site.baseurl }}assets/img/raleyspush3.jpg" alt="Raley's push notification">
     </div>
   </div>
 </div>
