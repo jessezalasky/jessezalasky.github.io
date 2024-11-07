@@ -90,21 +90,17 @@ Here's what I contributed:
 <div class="phone-wrapper">
   <div class="phone-mockup">
     <div class="phone-screen">
-      <img src="{{ site.baseurl }}assets/img/raleysemail.jpg" alt="email inbox">
+      <img src="{{ site.baseurl }}assets/img/raleysemail.jpg" alt="Raley's homepage">
     </div>
   </div>
-
-<div class="phone-wrapper">
   <div class="phone-mockup">
     <div class="phone-screen">
-      <img src="{{ site.baseurl }}assets/img/raleysemail2.jpg" alt="email inbox">
+      <img src="{{ site.baseurl }}assets/img/raleysemail2.jpg" alt="Raley's app">
     </div>
   </div>
-
-<div class="phone-wrapper">
   <div class="phone-mockup">
     <div class="phone-screen">
-      <img src="{{ site.baseurl }}assets/img/raleysemail3.jpg" alt="email inbox">
+      <img src="{{ site.baseurl }}assets/img/raleysemail3.jpg" alt="Raley's app">
     </div>
   </div>
 </div>
