@@ -28,7 +28,31 @@ This website was a project years in the making, meant to transform Raley's onlin
 
 ### Subheading
 
-You can include various subheadings to organize your content.
+The website represents a major jump in technical sophistication, merging the power of creative and the analytics of ecomm. The elements you see on the page tell a story that is designed to sell more products. 
+
+I wrote the copy for the brand's Something Extra member loyalty program. 
+
+      <img src="{{ site.baseurl }}assets/img/raleysweb.jpg" alt="raleys website">
+
+The branding extends to the Raley's app - an all-new platform, developed in tandem with the new website, that makes it easier to shop and save. Again, this app enabled in-house creative to supercharge the brand. The app and website result in a seamless UX.
+
+<div class="phone-wrapper">
+  <div class="phone-mockup">
+    <div class="phone-screen">
+      <img src="{{ site.baseurl }}assets/img/raleysapp.jpg" alt="Raley's homepage">
+    </div>
+  </div>
+  <div class="phone-mockup">
+    <div class="phone-screen">
+      <img src="{{ site.baseurl }}assets/img/raleysapp2.jpg" alt="Raley's app">
+    </div>
+  </div>
+  <div class="phone-mockup">
+    <div class="phone-screen">
+      <img src="{{ site.baseurl }}assets/img/raleysapp3.jpg" alt="Raley's app">
+    </div>
+  </div>
+</div>
 
 ![Alt text for image](path/to/image.jpg)
 
