@@ -94,13 +94,24 @@ Here's what I contributed:
     </div>
   </div>
 
+<div class="phone-wrapper">
+  <div class="phone-mockup">
+    <div class="phone-screen">
+      <img src="{{ site.baseurl }}assets/img/raleysemail2.jpg" alt="email inbox">
+    </div>
+  </div>
+
+<div class="phone-wrapper">
+  <div class="phone-mockup">
+    <div class="phone-screen">
+      <img src="{{ site.baseurl }}assets/img/raleysemail3.jpg" alt="email inbox">
+    </div>
+  </div>
+</div>
 
 
-![Alt text for image](path/to/image.jpg)
 
-More paragraphs and content can be added here. You can include as many images as needed throughout the text.
 
-![raley's website](assets/img/raleysnew.jpg)
 
 ## Results
 
