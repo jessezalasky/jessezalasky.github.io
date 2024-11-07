@@ -32,7 +32,7 @@ The website represents a major jump in technical sophistication, merging the pow
 
 I wrote the copy for the brand's Something Extra member loyalty program. 
 
-      <img src="{{ site.baseurl }}assets/img/raleysweb.jpg" alt="raleys website">
+<img src="{{ site.baseurl }}assets/img/raleysweb.jpg" alt="raleys website">
 
 The branding extends to the Raley's app - an all-new platform, developed in tandem with the new website, that makes it easier to shop and save. Again, this app enabled in-house creative to supercharge the brand. The app and website result in a seamless UX.
 
@@ -50,6 +50,24 @@ The branding extends to the Raley's app - an all-new platform, developed in tand
   <div class="phone-mockup">
     <div class="phone-screen">
       <img src="{{ site.baseurl }}assets/img/raleysapp3.jpg" alt="Raley's app">
+    </div>
+  </div>
+</div>
+
+<div class="phone-wrapper">
+  <div class="phone-mockup">
+    <div class="phone-screen">
+      <img src="{{ site.baseurl }}assets/img/raleysapp4.jpg" alt="Raley's homepage">
+    </div>
+  </div>
+  <div class="phone-mockup">
+    <div class="phone-screen">
+      <img src="{{ site.baseurl }}assets/img/raleysapp5.jpg" alt="Raley's app">
+    </div>
+  </div>
+  <div class="phone-mockup">
+    <div class="phone-screen">
+      <img src="{{ site.baseurl }}assets/img/raleysapp6.jpg" alt="Raley's app">
     </div>
   </div>
 </div>
