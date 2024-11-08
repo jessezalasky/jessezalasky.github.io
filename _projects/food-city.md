@@ -51,12 +51,10 @@ I oversaw the content transition from WordPress to Bloomreach, collaborated with
   <div class="laptop-base"></div>
 </div>
 
-<div class="image-container">
-  <img src="{{ site.baseurl }}assets/img/foodcitygraphic1.jpg" alt="weekly ad">
-  <img src="{{ site.baseurl }}assets/img/foodcitygraphic2.jpg" alt="weekly ad">
-</div>
 
-  <img src="{{ site.baseurl }}assets/img/foodcitygraphic3.jpg" alt="weekly ad">
+<img src="{{ site.baseurl }}assets/img/foodcitygraphic1.jpg" alt="weekly ad">
+<img src="{{ site.baseurl }}assets/img/foodcitygraphic2.jpg" alt="weekly ad">
+<img src="{{ site.baseurl }}assets/img/foodcitygraphic3.jpg" alt="weekly ad">
 
 
 
