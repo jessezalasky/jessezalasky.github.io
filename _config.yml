@@ -289,7 +289,7 @@ kramdown:
 
 # Includes & excludes
 include: ["_pages"]
-include: [_redirects]
+include: ["_redirects"]
 exclude:
   - bin/
   - CONTRIBUTING.md
