@@ -126,3 +126,6 @@ A loyalty launch isn't complete without an email campaign. I wrote the copy for 
   </div>
 </div>
 
+## Results
+
+Food City brand is now more cohesive than ever - these efforts represent a leap into the 21st Century. With a robust content strategy to power it, Mi Club is poised to attract new shoppers and make the customer experience - and the customer's pocketbook - a lot happier. 
