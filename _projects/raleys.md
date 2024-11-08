@@ -139,7 +139,7 @@ Raley's Weekly Ad drops in-store, in mailboxes, and online every Wednesday. I'm 
 
 ### Radio Ads
 
-Raley's is a major retailer in northern California and Nevada, but it can't compete with the Safeway's of the world without terrestrial radio. I've had the chance to write and produced radio advertisments, directing the script recording session with Raley's voice talent. 
+Raley's is a major retailer in northern California and Nevada, but it can't compete with the Safeway's of the world without terrestrial radio. I've had the chance to write and produce radio advertisments, directing the script recording session with Raley's voice talent and trafficking audio files to paid media partners. 
 
 <audio controls>
     <source src="{{ site.baseurl }}assets/audio/raleysradio.mp3" type="audio/mp3">
@@ -150,8 +150,3 @@ Raley's is a major retailer in northern California and Nevada, but it can't comp
     <source src="{{ site.baseurl }}assets/audio/raleysradio2.mp3" type="audio/mp3">
     Your browser does not support the audio element.
 </audio>
-
-
-## Results
-
-Discuss the outcomes of your project here.
