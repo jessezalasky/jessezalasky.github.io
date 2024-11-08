@@ -121,7 +121,7 @@
 /* Updated Laptop Mockup Styles */
 /* Updated CSS */
 .laptop-wrapper {
-  width: 800px; /* Set exact width */
+  width: 800px;
   margin: 40px auto;
   padding: 20px;
   background: transparent;
@@ -134,7 +134,7 @@
   padding: 20px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.3);
   width: 100%;
-  box-sizing: border-box; /* Add this to include padding in width calculation */
+  box-sizing: border-box;
 }
 
 .laptop-screen {
@@ -143,24 +143,25 @@
   overflow: hidden;
   position: relative;
   box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  /* Remove duplicate width declaration */
+  width: 100%;
   height: 500px;
-  width: 800px; /* Set exact width */
-  width: 100%; /* Change to 100% to stay within laptop */
-  margin: 0 auto;
-  box-sizing: border-box; /* Add this */
-  margin: 0; /* Add this */
-  padding: 0; /* Add this */
-  display: block; /* Add this */
-  line-height: 0; /* Add this to remove any potential line-height spacing */
+  margin: 0;
+  padding: 0;
+  display: block;
+  line-height: 0;
 }
 
 .laptop-screen img {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover; /* This will ensure image covers the area without stretching */
-  margin: 0; /* Add this */
-  padding: 0; /* Add this */
+  /* Change from cover to contain to prevent stretching */
+  object-fit: contain;
+  /* Add this to ensure image is centered */
+  object-position: center;
+  margin: 0;
+  padding: 0;
 }
 
 .laptop-base {
