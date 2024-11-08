@@ -1,8 +1,8 @@
 ---
 layout: project
-title: "Per Mar Security"
+title: "Per Mar"
 order: 3
-description: "See how my content strategies and web development led to another successful site launch."
+description: "See what I did for Per Mar Security."
 permalink: /creative-portfolio/per-mar
 summary: 
 category: project
@@ -29,6 +29,7 @@ Me. I'm that someone.
 <div class="image-container">
   <img src="{{ site.baseurl }}assets/img/permarwireframe.jpg" alt="wireframe">
 </div>
+<div class="arrow"></div>
 <div class="image-container">
   <img src="{{ site.baseurl }}assets/img/permarwireframe5.jpg" alt="wireframe">
 </div>
