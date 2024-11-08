@@ -2,7 +2,7 @@
 layout: project
 title: "Per Mar"
 order: 3
-description: "See what I did for Per Mar Security."
+description: "See what I did to launch Per Mar Security's new website."
 permalink: /creative-portfolio/per-mar
 summary: 
 category: project
@@ -18,7 +18,7 @@ My Contributions:
 
 Per Mar Security is a leading commercial and residential security provider in the Midwest... but their website was old and generally a mess. It poorly reflected their strong community ties and probably left customers searching out a company that looked like they operated in the current decade. 
 
-After conducting some necessary prework (creating buyer personas, evaluating competitors, learning services), I set to work, resetting Per Mar's entire online brand identity with new, more relevant, more education copy throughout. 
+After conducting some necessary prework (creating buyer personas, evaluating competitors, learning services), I set to work, resetting Per Mar's entire online brand identity with new, more relevant, more educational copy throughout. 
 
 ### The Wireframing Process
 
@@ -35,6 +35,7 @@ Me. I'm that someone.
 <div class="image-container">
   <img src="{{ site.baseurl }}assets/img/permarwireframe5.jpg" alt="wireframe">
 </div>
+
 
 
 
