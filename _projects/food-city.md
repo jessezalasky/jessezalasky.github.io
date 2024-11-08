@@ -4,7 +4,7 @@ title: "Food City"
 order: 2
 description: "Learn how I helped launch the Mi Club loyalty program."
 permalink: /creative-portfolio/food-city
-summary: "Food City is fun."
+summary:
 category: project
 My Contributions:
   - Copywriting
@@ -128,4 +128,4 @@ A loyalty launch isn't complete without an email campaign. I wrote the copy for 
 
 ## Results
 
-Food City brand is now more cohesive than ever - these efforts represent a leap into the 21st Century. With a robust content strategy to power it, Mi Club is poised to attract new shoppers and make the customer experience - and the customer's pocketbook - a lot happier. 
+Food City's brand is now more cohesive than ever - these efforts represent a leap into the 21st Century. With a robust content strategy to power it, Mi Club is poised to attract new shoppers and make the customer experience - and the customer's pocketbook - a lot happier. 
