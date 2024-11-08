@@ -18,11 +18,11 @@ My Contributions:
 
 ### Food City Website & Mi Club Loyalty Launch
 
-Food City is a Hispanic grocery chain with 45 store locations throughout the state of Arizona. The brand has shown consistent growth over the past three years. Food City sales have outpaced other brands in the Raley's portoflio. Because of this, Raley's leadership put Food City's web and loyalty launch at the forefront of their 2024 plans. 
+Food City is a Hispanic grocery chain with 45 store locations throughout the state of Arizona. The brand has shown consistent growth and Raley's leadership put Food City's web and loyalty launch at the forefront of their 2024 plans. 
 
-Long neglected, the brand's website recieved a complete refresh and the all-new Mi Club program was launched. This represents a major shift, both in terms of the control internal creative now has over the brand, and in terms of the Food City customer experience. 
+Long neglected, the brand's website recieved a complete refresh and the all-new Mi Club program was launched. 
 
-How I pitched in:
+How I contributed:
 
 * Oversaw the content transition from WordPress to Bloomreach.
 * Collaborated with internal stakeholders to update all website content.
@@ -62,11 +62,7 @@ How I pitched in:
 
 ### Mi Club
 
-Mi Club is a rewards program molded after Raley's Something Extra (minus the reward points). Members save a lot more than non-members. Sounds like a no brainer, right? Food City has a loyal customer base who have pre-set expectations. Introducing a new program can be met with resistance. 
-
-What we know: engaged shoppers are the most loyal shoppers. 
-
-What I needed to do: introduce people to Mi Club, explain the benefits, and let people know just how easy it is to save a whole bunch of money. 
+Mi Club is a loyalty program molded after Raley's Something Extra (minus the reward points). To put it simply, members save a lot more than non-members. Sounds like a no brainer, right? My goal was to write copy that introduced Mi Club, explained the benefits, and established how easy it is to use. 
 
 <div class="laptop-wrapper">
   <div class="laptop">
@@ -88,7 +84,7 @@ What I needed to do: introduce people to Mi Club, explain the benefits, and let 
 
 ### 12-Part Automated Email Campaign
 
-A loyalty launch isn't complete without an email campaign. I wrote the copy for 12 emails designed to introduce new members to the program, explain the benefits in depth, and offer special savings to drive people to the store. 
+A loyalty launch isn't complete without an email campaign. I wrote copy for 12 emails designed to introduce new members to the program and engage them with special offers.
 
 <div class="phone-wrapper">
   <div class="phone-mockup">
@@ -128,4 +124,4 @@ A loyalty launch isn't complete without an email campaign. I wrote the copy for 
 
 ## Results
 
-Food City's brand is now more cohesive than ever - these efforts represent a leap into the 21st Century. With a robust content strategy to power it, Mi Club is poised to attract new shoppers and make the customer experience - and the customer's pocketbook - a lot happier. 
+Food City's brand is now more cohesive than ever - these efforts represent a leap into the 21st Century. With a robust content strategy to power it, Mi Club is set to attract new customers and make shoppers more satisfied.
