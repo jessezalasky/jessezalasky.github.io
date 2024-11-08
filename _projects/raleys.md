@@ -133,7 +133,7 @@ Customers get savings at their fingertips - I know because I write the push noti
 Raley's Weekly Ad drops in-store, in mailboxes, and online every Wednesday. I'm there to provide headline copy that showcases the sale items featured for the week. 
 
 <div class="image-container">
-  <img src="{{ site.baseurl }}assets/img/weeklyad1.jpg" alt="weekly add">
+  <img src="{{ site.baseurl }}assets/img/weeklyad1.jpg" alt="weekly ad">
   <img src="{{ site.baseurl }}assets/img/weeklyad2.jpg" alt="weekly ad">
 </div>
 
