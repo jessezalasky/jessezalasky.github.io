@@ -8,4 +8,5 @@ cv_pdf: jesse zalasky copywriting resume.pdf
 description: >
 toc:
   sidebar: left
+redirect: /creative-portfolio
 ---
