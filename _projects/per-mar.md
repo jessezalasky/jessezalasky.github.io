@@ -97,9 +97,7 @@ But long days spent typing away at a keyboard isn't a great recipe for blog succ
 
 Put this together and what do you get? Just take a look at first search result for the keyword phrase *what is an ip camera* - it's a blog I wrote for Bay Alarm. 
 
-<div class="image-container">
   <img src="{{ site.baseurl }}assets/img/searchresult.jpg" alt="nav">
-</div>
 
 ## Results
 
