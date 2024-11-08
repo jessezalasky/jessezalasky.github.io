@@ -4,8 +4,10 @@ title: "Puns"
 order: 2
 description: "The lighter side of my writing life."
 permalink: /creative-portfolio/puns
-summary: "The marquee at the Raley's flagship store in Sacramento is a city icon and I get to write the puns!"
+summary: "The marquee at the Raley's flagship store in Sacramento is a city icon and I write the puns!"
 category: print
+My Contributions:
+- Have Fun
 ---
 
 <div class="image-container">
