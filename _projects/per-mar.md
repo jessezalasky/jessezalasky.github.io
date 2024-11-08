@@ -29,7 +29,9 @@ Me. I'm that someone.
 <div class="image-container">
   <img src="{{ site.baseurl }}assets/img/permarwireframe.jpg" alt="wireframe">
 </div>
-<div class="arrow"></div>
+<div class="arrow-container">
+  <div class="arrow"></div>
+</div>
 <div class="image-container">
   <img src="{{ site.baseurl }}assets/img/permarwireframe5.jpg" alt="wireframe">
 </div>
