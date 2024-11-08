@@ -4,3 +4,9 @@
 
 [context.production.environment]
   RUBY_VERSION = "3.0.0"
+
+[[redirects]]
+  from = "/"
+  to = "/creative-portfolio/"
+  status = 301
+  force = true
