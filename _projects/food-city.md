@@ -52,9 +52,8 @@ I oversaw the content transition from WordPress to Bloomreach, collaborated with
 </div>
 
 
-<img src="{{ site.baseurl }}assets/img/foodcitygraphic1.jpg" alt="weekly ad">
-<img src="{{ site.baseurl }}assets/img/foodcitygraphic2.jpg" alt="weekly ad">
-<img src="{{ site.baseurl }}assets/img/foodcitygraphic3.jpg" alt="weekly ad">
+<img src="{{ site.baseurl }}assets/img/foodcitygraphic4.jpg" alt="food city">
+
 
 
 
