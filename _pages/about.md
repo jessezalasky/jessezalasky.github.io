@@ -13,7 +13,6 @@ profile:
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-redirect: /creative-portfolio
 ---
 
 I'm a marketing and SEO professional with a knack for crafting impactful digital campaigns and compelling content. With over six years of experience, I've honed my skills in copywriting, SEO, and email marketing to deliver measurable results for brands of all kinds. Whether it's writing persuasive copy, optimizing web content, or managing large email campaigns, I bring a blend of creativity and analytical rigor to every project.
