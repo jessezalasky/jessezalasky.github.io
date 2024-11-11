@@ -53,3 +53,34 @@ This is what I did to make that goal a reality:
   <div class="laptop-base"></div>
 </div>
 
+## No More Mixed Signals
+
+I developed content and designed a simple navigation experience for Bay Alarm that solved one of their site's biggest problems - **intent**. Bay Alarm works with residential and commercial customers. When I started working with them, their existing website lacked a clear intent. Content was sort of all over the place. Site visitors had a hard time finding answers to their questions.
+
+<img src="{{ site.baseurl }}assets/img/bayalarm4.jpg" alt="bay alarm nav">
+
+This revamped navigation meant users could quickly find the products and services they need. Homeowner? You know exactly where to look for security cameras. Own a warehouse? You can find info on commercial security access with one click. 
+
+The new sitemap also helped with SEO by giving search engines very clear signals about page content. 
+
+
+### Blog Writing
+
+## What I Did to Net Bay Alarm **50,000+** More Organic Clicks
+
+Blogs are like nutrition supplements for a website. Olympic athletes recover after a hard training session with a protein shake, which gives them a leg up for their next training day. Long form content signals search engines that what a website has to say is important, helpful, and relevant, boosting overall performance. 
+
+But long days spent typing away at a keyboard isn't a great recipe for blog success. Here are the not-so-secret ingredients I live by when it comes to writing blogs that will rank highly:
+
+* **Know Your Audience**: Yes, it all gets back to this. What questions does your target audience ask?
+* **Do Competitor Research**: Check out what direct competitors are writing. Cause it's always fun to iterate on their ideas and do a lot better at execution. 
+* **Be Specific**: Think about it: you can write a *ton* about running shoes. You can write about their history, key innovators, the shoes Jesse Owens wore in the Olympics, nearby shoe stores... ugh, it's sort of exhausting. That's because "running shoes" is far too general of a topic. So, dissect it. What, specifically, do people want to know about running shoes? A really good topic might be about the development of insolses and the science behind them. Now that's specific, and it gives you the chance to come up with a well-researched, in-depth article. 
+* **Keep an Eye on Analytics**: I like to use Google Analytics (duh) and SpyFu, a website that presents SEO metrics in a simple way. Both website let you sift through keywords and keyword phrases. This info allows you to maintain a database of current performing keywords, keywords that are slacking, and new keyword opportunities you can pursue later.
+
+Put this together and what do you get? Just take a look at first search result for the keyword phrase *what is an ip camera* - it's a blog I wrote for Bay Alarm. 
+
+<img src="{{ site.baseurl }}assets/img/searchresult.jpg" alt="google">
+
+All of this work paid off big time. Top-ranked search results soared under my supervision.
+
+

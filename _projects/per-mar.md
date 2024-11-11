@@ -84,21 +84,6 @@ The same goes for on-page navigation. Take a look at the main navigation menu I 
 
 Site visitors know exactly what they're getting here. It's all very straighforward and literal. All of this put together makes for a nice, tidy UX and strong SEO. 
 
-### Blog Writing
-
-Blogs are like nutrition supplements for a website. Olympic athletes recover after a hard training session with a protein shake, which gives them a leg up for their next training day. Long form content signals search engines that what a website has to say is important, helpful, and relevant, boosting overall performance. 
-
-But long days spent typing away at a keyboard isn't a great recipe for blog success. Here are the not-so-secret ingredients I live by when it comes to writing blogs that will rank highly:
-
-* **Know Your Audience**: Yes, it all gets back to this. What questions does your target audience ask?
-* **Do Competitor Research**: Check out what direct competitors are writing. Cause it's always fun to iterate on their ideas and do a lot better at execution. 
-* **Be Specific**: Think about it: you can write a *ton* about running shoes. You can write about their history, key innovators, the shoes Jesse Owens wore in the Olympics, nearby shoe stores... ugh, it's sort of exhausting. That's because "running shoes" is far too general of a topic. So, dissect it. What, specifically, do people want to know about running shoes? A really good topic might be about the development of insolses and the science behind them. Now that's specific, and it gives you the chance to come up with a well-researched, in-depth article. 
-* **Keep an Eye on Analytics**: I like to use Google Analytics (duh) and SpyFu, a website that presents SEO metrics in a simple way. Both website let you sift through keywords and keyword phrases. This info allows you to maintain a database of current performing keywords, keywords that are slacking, and new keyword opportunities you can pursue later.
-
-Put this together and what do you get? Just take a look at first search result for the keyword phrase *what is an ip camera* - it's a blog I wrote for Bay Alarm. 
-
-<img src="{{ site.baseurl }}assets/img/searchresult.jpg" alt="nav">
-
 ## Results
 
 The Per Mar Security web launch really let me flex some creative muscle. I was the point person for content strategy, copywriting, and UX design. I even developed some of the landing pages using WordPress. I put everything I know about content development into this project. I'm proud that it shows. 
