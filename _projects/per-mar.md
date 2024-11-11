@@ -1,8 +1,8 @@
 ---
 layout: project
 title: "Per Mar"
-order: 3
-description: "See what I did to launch Per Mar Security's new website."
+order: 4
+description: "Check out what I did to launch Per Mar Security's new website."
 permalink: /creative-portfolio/per-mar
 summary: 
 category: project
