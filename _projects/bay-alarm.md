@@ -55,11 +55,13 @@ This is what I did to make that goal a reality:
 
 ## No More Mixed Signals
 
+### Defining User Intent
+
 I developed content and designed a simple navigation experience for Bay Alarm that solved one of their site's biggest problems - **intent**. Bay Alarm works with residential and commercial customers. When I started working with them, their existing website lacked a clear intent. Content was sort of all over the place. Site visitors had a hard time finding answers to their questions.
 
 <img src="{{ site.baseurl }}assets/img/bayalarm4.jpg" alt="bay alarm nav">
 
-This revamped navigation meant users could quickly find the products and services they need. Homeowner? You know exactly where to look for security cameras. Own a warehouse? You can find info on commercial security access with one click. 
+This revamped navigation meant users could quickly find the products and services they need. Match that with killer landing page copy and you get a high-performing website that converts a lot of visitors. Homeowner? You know exactly where to look for security cameras. Own a warehouse? You can find info on commercial access control with one click. 
 
 The new sitemap also helped with SEO by giving search engines very clear signals about page content. 
 
@@ -81,7 +83,7 @@ Put this together and what do you get? Just take a look at first search result f
 
 <img src="{{ site.baseurl }}assets/img/searchresult.jpg" alt="google">
 
-These efforts paid off big time. Top-ranked search results soared under my supervision. Organic clicks went way up. Conversions increased. Google started viewing Bay Alarm as a valuable resource. The client generously sent me cookies. 
+These efforts paid off big time. Top-ranked search results soared. Organic clicks went way up. Conversions increased. Google started viewing Bay Alarm as a valuable resource. The client generously sent me cookies. 
 
 A win-win all around. 
 
