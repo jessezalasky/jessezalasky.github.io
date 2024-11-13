@@ -69,7 +69,7 @@ The new sitemap also helped with SEO by giving search engines very clear signals
 
 ### Increasing Organic Clicks by 50,000+
 
-Blogs are like nutrition supplements for a website. Olympic athletes recover after a hard training session with a protein shake, which gives them a leg up for their next workout. Long form content signals search engines that what a website has to say is important, helpful, and relevant, boosting overall performance. 
+Blogs are like nutrition supplements for a website. Olympic athletes recover after a hard training session with a protein shake, which gives them a leg up for their next workout. Blogs tell search engines that what a website has to say is important, helpful, and relevant, boosting overall performance. 
 
 But long days spent typing away at a keyboard isn't a great recipe for blog success. Here are the not-so-secret ingredients I live by when it comes to writing blogs that will rank highly:
 
