@@ -86,20 +86,6 @@ These efforts paid off big time. Top-ranked search results soared. Organic click
 
 A win-win all around. 
 
-## Learning Center
-
-### Implementing a Resource Hub
-
-Bay Alarm wanted to provide existing customers with a resource center that contained tutorial videos and documentation about products they offer. This would also serve to free up time their internal team spent working the phones answering customer service questions. 
-
-We dubbed this new section the Bay Alarm Learning Center. I devised the page structure. Like the rest of the website, this page was sectioned off based on customer type - so residential and commercial customers ner got lost wading through a mountain of information that didn't pertain to them. 
-
-The page also included a search function - a bit of a finnicky thing to implement, but our dev team pulled through and helped my vision come to life. 
-
-The Learning Center housed how-to videos I scripted and articles I wrote.
-
-This page really became a playground of sorts for me. I was fully in charge of the layout, content, and content publishing. 
-
 ## Marketing Automation
 
 ### Creating a Sales Tunnel that Led to a $5 Million Revenue Increase
@@ -108,7 +94,8 @@ Writing new content isn't the only way I contributed to Bay Alarm - the revamped
 
 I set up Bay Alarm's full-funnel content strategy like this:
 
-<img src="{{ site.baseurl }}assets/img/bayalarmautomation1.png" alt="automation">
+
+This represents what the logic tree looked like for all 12 services!
 
 ### New Content to Satisfy Users & Search Engines
 
@@ -118,16 +105,17 @@ As discussed above, a new sitemap and better content across the board resulted i
 
 Every landing page contained a form so visitors could signal their intent to speak with a salesperson.
 
-### HubSpot Automation
+### Creating the Logic Tree
 
 I worked with the client to understand their internal sales flow and implemented an automation program using HubSpot. Every form fill triggered an automated workflow like the one you see below. Each landing page had its own branch, so internal sales always knew exactly how to approach conversations with leads. They already knew exactly what services people wanted!
 
-img
+<img src="{{ site.baseurl }}assets/img/bayalarmautomation1.png" alt="automation">
 
-This workflow dripped emails to leads at regular intervals, measured a given lead's engagement, and moved their contact to a supression list if they no longer seemed interested. 
+This workflow dripped emails to leads at regular intervals, measured a given lead's engagement, and moved their contact to a supression list if they no longer seemed interested. All 12 services had their own logic tree. Equipped with this deep level of automation, internal sales at Bay Alarm had nothing to do aside from make calls and schedule appointments. The website took care of the rest. 
 
-Equipped with this level of granular automation, internal sales at Bay Alarm had nothing to do aside from make calls and schedule appointments. The website took care of the rest. 
+## Results
 
+My experience developing content strategies for Bay Alarm was a huge success. Clicks, conversions, and revenue all went up. Bay Alarm was now a healthier, higher performing brand than ever before. 
 
 
 
