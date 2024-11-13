@@ -76,7 +76,7 @@ But long days spent typing away at a keyboard isn't a great recipe for blog succ
 * **Know Your Audience**: Yes, it all gets back to this. What questions does your target audience ask?
 * **Do Competitor Research**: Check out what direct competitors are writing. Cause it's always fun to iterate on their ideas and do a lot better at execution. 
 * **Be Specific**: Think about it: you can write a *ton* about running shoes. You can write about their history, key innovators, the shoes Jesse Owens wore in the Olympics, nearby shoe stores... ugh, it's sort of exhausting. That's because "running shoes" is far too general of a topic. So, dissect it. What, specifically, do people want to know about running shoes? A really good topic might be about the development of insolses and the science behind them. Now that's specific!
-* **Keep an Eye on Analytics**: I like to use Google Analytics (duh) and SpyFu, a website that presents SEO metrics in a simple way. Both website let you sift through keywords and keyword phrases. This info allows you to maintain a database of keywords that are performing, keywords that aren't performing, and new keyword you can pursue later.
+* **Keep an Eye on Analytics**: I like to use Google Analytics (duh) and SpyFu, a website that presents SEO metrics in a simple, digestable way. This info allows you to maintain a database of keywords that are performing, keywords that aren't performing, and new keyword you can pursue later.
 
 Put this together and what do you get? Just take a look at first search result for the keyword phrase *what is an ip camera* - it's a blog I wrote for Bay Alarm. 
 
