@@ -94,9 +94,6 @@ Writing new content isn't the only way I contributed to Bay Alarm - the revamped
 
 I set up Bay Alarm's full-funnel content strategy like this:
 
-
-This represents what the logic tree looked like for all 12 services!
-
 ### New Content to Satisfy Users & Search Engines
 
 As discussed above, a new sitemap and better content across the board resulted in increased site visits. 
