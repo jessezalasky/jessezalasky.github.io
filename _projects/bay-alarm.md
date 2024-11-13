@@ -88,7 +88,7 @@ A win-win all around.
 
 ## Marketing Automation
 
-### Creating a Sales Tunnel that Led to a $5 Million Revenue Increase
+### Sales Funnel that Led to a $5 Million Revenue Increase
 
 Writing new content isn't the only way I contributed to Bay Alarm - the revamped website copy did a lot of the heavy lifting, but I put in work behind the scenes too. 
 
