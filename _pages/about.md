@@ -6,9 +6,9 @@ subtitle:
 
 profile:
   align: left
-  image: Profile_Pic.jpg
+  image: 
   image_circular: false # crops the image to make it circular
-  more_info: <a href="assets/pdf/Jesse Zalasky Creative Portfolio.pdf" class="btn btn-primary" target="_blank">View Creative Portfolio</a>
+  more_info: 
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
