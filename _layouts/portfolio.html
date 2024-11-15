@@ -780,11 +780,27 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const counterElement = document.getElementById('words-counter');
-    let count = parseInt(counterElement.textContent.replace(/\D/g, '')); // Remove non-digits
     
+    // Get the initial timestamp or set it if first visit
+    let firstVisit = localStorage.getItem('firstVisitTimestamp');
+    if (!firstVisit) {
+        firstVisit = Date.now();
+        localStorage.setItem('firstVisitTimestamp', firstVisit);
+    }
+    
+    // Calculate elapsed seconds since first visit
+    const secondsElapsed = Math.floor((Date.now() - firstVisit) / 1000);
+    
+    // Start count at 100,000 plus elapsed seconds
+    let count = 100000 + secondsElapsed;
+    
+    // Update the counter immediately
+    counterElement.textContent = '+' + count.toLocaleString();
+    
+    // Continue updating every second
     setInterval(() => {
         count++;
         counterElement.textContent = '+' + count.toLocaleString();
-    }, 1000); // Updates every second
+    }, 1000);
 });
 </script>
