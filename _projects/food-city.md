@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Food City"
-order: 2
+order: 3
 description: "Learn how I helped launch the Mi Club loyalty program."
 permalink: /creative-portfolio/food-city
 summary:

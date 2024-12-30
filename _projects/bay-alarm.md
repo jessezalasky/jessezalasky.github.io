@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Bay Alarm"
-order: 3
+order: 4
 description: "See how I helped Bay Alarm increase revenue by $5 million."
 permalink: /creative-portfolio/bay-alarm
 summary:

@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Raley's"
-order: 1
+order: 2
 description: "Check out some of the projects I worked on in my time at Raley's!"
 permalink: /creative-portfolio/raleys
 summary: "Raley's is all about nourishing its customers. Without the right messaging and creative brand strategy, they could just be another grocery chain. I've had the opportunity to deploy a new website and write mountains of copy for digital and print to help the Raley's brand flourish."
