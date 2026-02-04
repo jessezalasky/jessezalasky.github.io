@@ -99,12 +99,15 @@ export default function PortfolioConcept() {
 
           </p>
           
-          <div className="flex flex-wrap gap-6 mb-20">
-            <button className="bg-stone-900 text-white px-8 py-4 rounded-none font-medium hover:bg-orange-600 transition-all duration-300 flex items-center gap-2 group">
-              Let's Talk!
-              <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
-            </button>
-          </div>
+<div className="flex flex-wrap gap-6 mb-20">
+  <a 
+    href="mailto:jessezalasky@gmail.com" 
+    className="bg-stone-900 text-white px-8 py-4 rounded-none font-medium hover:bg-orange-600 transition-all duration-300 flex items-center gap-2 group"
+  >
+    Let's Talk!
+    <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
+  </a>
+</div>
           
           {/* Stats Bar */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12 border-t-2 border-stone-200">
