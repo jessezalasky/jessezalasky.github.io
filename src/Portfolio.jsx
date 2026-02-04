@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight, Zap, TrendingUp, Users } from 'lucide-react';
 
+const rotatingWords = ['sells', 'converts', 'resonates', 'connects', 'performs'];
+
 export default function PortfolioConcept() {
   const [typedText, setTypedText] = useState('');
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(null);
   
-  const rotatingWords = ['sells', 'converts', 'resonates', 'connects', 'performs'];
+
   
   useEffect(() => {
     const word = rotatingWords[currentWordIndex];
