@@ -25,7 +25,7 @@ export default function PortfolioConcept() {
     }, 100);
     
     return () => clearInterval(typingInterval);
-  }, [currentWordIndex, rotatingWords]);
+  }, [currentWordIndex]);
 
   const projects = [
     {
