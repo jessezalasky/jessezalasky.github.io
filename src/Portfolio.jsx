@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowRight, Zap, TrendingUp, Users, ExternalLink } from 'lucide-react';
+import { ArrowRight, Zap, TrendingUp, Users } from 'lucide-react';
 
 export default function PortfolioConcept() {
   const [typedText, setTypedText] = useState('');
@@ -25,7 +25,7 @@ export default function PortfolioConcept() {
     }, 100);
     
     return () => clearInterval(typingInterval);
-  }, [currentWordIndex]);
+  }, [currentWordIndex, rotatingWords]);
 
   const projects = [
     {
