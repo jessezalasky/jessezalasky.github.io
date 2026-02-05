@@ -134,8 +134,8 @@ export default function PortfolioConcept() {
             <p>
               I write copy that connects with real people, drives real action, and delivers real results.
               Whether it's a homepage that converts, an email sequence that nurtures, or a brand voice 
-              that resonates—my approach is the same: understand the audience, clarify the message, 
-              and make every word count.
+              that resonates, my approach is the same: understand the audience, clarify the message, 
+              and make every word matter.
             </p>
             <p className="text-orange-400 font-medium text-2xl pt-8">
               Strategy. Creativity.<br></br>Proven Results.
@@ -222,7 +222,7 @@ export default function PortfolioConcept() {
             {[
               {
                 title: "Brand Voice & Messaging",
-                description: "I don't just write—I build the verbal identity that makes your brand unmistakable.",
+                description: "I don't just write. I build the identity that makes your brand unmistakable.",
                 icon: "✍️"
               },
               {
@@ -242,12 +242,12 @@ export default function PortfolioConcept() {
               },
               {
                 title: "Web Development",
-                description: "I speak fluent HTML, CSS, React—so I build what I write and write what I build.",
+                description: "I speak HTML, CSS, & React. I build what I write and write what I build.",
                 icon: "⚡"
               },
               {
                 title: "CMS Mastery",
-                description: "WordPress, Salesforce, HubSpot—I work in your stack, not against it.",
+                description: "WordPress, Salesforce, Bloomreach, HubSpot. I work in your stack, not against it.",
                 icon: "🛠️"
               }
             ].map((skill, index) => (
@@ -289,10 +289,10 @@ export default function PortfolioConcept() {
                   </h3>
                   <p className="text-xl md:text-2xl text-white/90 leading-relaxed mb-6">
                     I built a Reddit analytics dashboard that auto-collects data from 125+ subreddits 
-                    every 24 hours. Because I don't just write about products. I build them too.
+                    every 24 hours. Check it out!
                   </p>
                   <div className="flex items-center gap-3 text-white font-medium">
-                    <span>Check it out</span>
+                    <span>See the Stats</span>
                     <ArrowRight className="group-hover:translate-x-2 transition-transform" size={24} />
                   </div>
                 </div>
@@ -351,8 +351,8 @@ export default function PortfolioConcept() {
             </h3>
             <p className="text-lg text-orange-100 leading-relaxed">
               I've written $250k radio campaigns, translated app features into plain-language tutorial scripts, 
-              crafted SEO blogs that drove 50k organic clicks, and yes—made security systems sound friendly. 
-              If it needs words, I can write it. If it needs to work, I can make that happen too.
+              crafted SEO blogs that drove 50k organic clicks, and even made security systems sound friendly. 
+              If it needs words, I can write it. 
             </p>
           </div>
         </div>
