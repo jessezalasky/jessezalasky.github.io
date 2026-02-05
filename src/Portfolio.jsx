@@ -74,11 +74,6 @@ export default function PortfolioConcept() {
     <div className="min-h-screen bg-stone-50 text-stone-900">
       {/* Hero Section - The Hook */}
       <section className="min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 relative overflow-hidden">
-        {/* Subtle background pattern */}
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-20 left-20 text-9xl font-bold text-stone-900">"</div>
-          <div className="absolute bottom-40 right-32 text-9xl font-bold text-stone-900">"</div>
-        </div>
         
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="mb-8">
@@ -133,7 +128,7 @@ export default function PortfolioConcept() {
       <section className="py-32 px-6 md:px-12 lg:px-24 bg-stone-900 text-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-5xl md:text-6xl font-bold mb-12 leading-tight">
-            Making Every Word Count
+            Making Every Word Matter
           </h2>
           <div className="space-y-8 text-xl text-stone-300 leading-relaxed">
             <p>
@@ -268,6 +263,47 @@ export default function PortfolioConcept() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+            {/* Side Project Callout */}
+      <section className="py-20 px-6 md:px-12 lg:px-24 bg-stone-900">
+        <div className="max-w-6xl mx-auto">
+          <a 
+            href="https://downvotedb.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="block bg-gradient-to-r from-orange-600 to-pink-600 p-12 md:p-16 border-4 border-white/20 hover:border-white/40 transition-all duration-300 group relative overflow-hidden"
+          >
+            {/* Animated background effect */}
+            <div className="absolute inset-0 bg-white/0 group-hover:bg-white/5 transition-all duration-300"></div>
+            
+            <div className="relative z-10">
+              <div className="flex items-start justify-between gap-8 flex-wrap">
+                <div className="flex-1 min-w-[280px]">
+                  <div className="text-white/80 text-sm font-medium mb-3 tracking-wider uppercase">
+                    Side Project → Built with React + PostgreSQL
+                  </div>
+                  <h3 className="text-4xl md:text-5xl font-bold text-white mb-4">
+                    DownvoteDB
+                  </h3>
+                  <p className="text-xl md:text-2xl text-white/90 leading-relaxed mb-6">
+                    I built a Reddit analytics dashboard that auto-collects data from 125+ subreddits 
+                    every 24 hours. Because I don't just write about products—I build them too.
+                  </p>
+                  <div className="flex items-center gap-3 text-white font-medium">
+                    <span>Check it out</span>
+                    <ArrowRight className="group-hover:translate-x-2 transition-transform" size={24} />
+                  </div>
+                </div>
+                
+                <div className="bg-white/10 backdrop-blur-sm px-6 py-4 border-2 border-white/30 self-start">
+                  <div className="text-white/70 text-xs mb-1">Tech Stack</div>
+                  <div className="text-white font-mono text-sm">React • Tailwind • PostgreSQL</div>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
       </section>
 
