@@ -73,7 +73,7 @@ export default function PortfolioConcept() {
   return (
     <div className="min-h-screen bg-stone-50 text-stone-900">
       {/* Hero Section - The Hook */}
-      <section className="min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 relative overflow-hidden">
+<section className="min-h-screen flex flex-col justify-center px-6 md:px-12 lg:px-24 pt-20 md:pt-0 relative overflow-hidden">
         
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="mb-8">
@@ -289,7 +289,7 @@ export default function PortfolioConcept() {
                   </h3>
                   <p className="text-xl md:text-2xl text-white/90 leading-relaxed mb-6">
                     I built a Reddit analytics dashboard that auto-collects data from 125+ subreddits 
-                    every 24 hours. Because I don't just write about products—I build them too.
+                    every 24 hours. Because I don't just write about products. I build them too.
                   </p>
                   <div className="flex items-center gap-3 text-white font-medium">
                     <span>Check it out</span>
