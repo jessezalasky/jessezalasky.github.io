@@ -125,7 +125,7 @@ export default function PortfolioConcept() {
       </section>
 
       {/* Philosophy Section */}
-      <section className="py-30 px-6 md:px-12 lg:px-24 bg-stone-900 text-white">
+      <section className="py-32 px-6 md:px-12 lg:px-24 bg-stone-900 text-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-5xl md:text-6xl font-bold mb-12 leading-tight">
             Making Every Word Matter
@@ -210,7 +210,7 @@ export default function PortfolioConcept() {
       </section>
 
       {/* Skills Section - Reimagined */}
-      <section className="py-30 px-6 md:px-12 lg:px-24 bg-orange-50">
+      <section className="py-32 px-6 md:px-12 lg:px-24 bg-orange-50">
         <div className="max-w-7xl mx-auto">
           <div className="mb-20 text-center">
             <h2 className="text-5xl md:text-6xl font-bold mb-6">
@@ -308,7 +308,7 @@ export default function PortfolioConcept() {
       </section>
 
       {/* The Fun Stuff Section */}
-      <section className="py-30 px-6 md:px-12 lg:px-24 bg-gradient-to-br from-orange-500 to-pink-600 text-white">
+      <section className="py-32 px-6 md:px-12 lg:px-24 bg-gradient-to-br from-orange-500 to-pink-600 text-white">
         <div className="max-w-6xl mx-auto">
           <div className="mb-16">
             <h2 className="text-5xl md:text-6xl font-bold mb-6">
