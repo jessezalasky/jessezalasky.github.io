@@ -70,25 +70,6 @@ export default function PortfolioConcept() {
     { number: "1M+", label: "Email Subscribers Managed", icon: Users }
   ];
 
-  const blogs = [
-  {
-    title: "Better Deals for Every Shopper: 5 Tips to Save More at Raley's!",
-    link: "https://www.raleys.com/be-inspired/5-tips-to-save-more-at-raleys"
-  },
-  {
-    title: "Motion sensors for business security: A guide",
-    link: "https://www.bayalarm.com/blog/how-do-motion-sensors-work-a-guide/"
-  },
-  {
-    title: "How Hycontrol Overcame Challenges with Industrial Foam Detection",
-    link: "https://www.southforkinst.com/how-hycontrol-overcame-challenges-with-industrial-foam-detection/"
-  },
-  {
-    title: "What Is Paramotoring, and How Safe is It?",
-    link: "https://www.penneylawyers.com/aviation-accidents/what-is-paramotoring-and-is-it-safe/"
-  },
-  // Add 4 more here...
-];
 
   return (
     <div className="min-h-screen bg-stone-50 text-stone-900">
