@@ -243,7 +243,7 @@ export default function PortfolioConcept() {
               },
               {
                 title: "Web Development",
-                description: "I speak HTML, CSS, & React. I build what I write and write what I build.",
+                description: "I can plug into your CMS and know HTML & CSS.",
                 icon: "⚡"
               },
               {
