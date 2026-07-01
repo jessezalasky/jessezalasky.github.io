@@ -248,7 +248,7 @@ export default function PortfolioConcept() {
               },
               {
                 title: "CMS Mastery",
-                description: "WordPress, Salesforce, Bloomreach, HubSpot. I work in your stack, not against it.",
+                description: "WordPress, Salesforce, Bloomreach, and HubSpot experience.",
                 icon: "🛠️"
               }
             ].map((skill, index) => (
